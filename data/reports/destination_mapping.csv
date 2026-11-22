@@ -1,0 +1,27 @@
+original_cv_name,normalized_cv_name,matched_tourism_destination,matched_source,confidence_pct,notes
+Ajanta Caves,ajanta caves,Ajanta Cave 1,maharashtra.xlsx (Maharashtra),88.0,Strong fuzzy match
+Charar-E- Sharif,charar e  sharif,K Chandra Sekhar,tamil nadu.xlsx (Tamil Nadu),62.5,Requires manual review
+Chhota_Imambara,chhota imambara,Bar,Chandigarh.xlsx (Chandigarh),85.0,Strong fuzzy match
+Ellora Caves,ellora caves,Borra caves,sikkim.xlsx (Sikkim),78.3,Requires manual review
+Fatehpur Sikri,fatehpur sikri,kri,gujarat.xlsx (Gujarat),85.0,Strong fuzzy match
+Gateway of India,gateway of india,GATEWAY OF INDIA,gujarat.xlsx (Gujarat),100.0,Exact match
+Hawa mahal,hawa mahal,Hawa Mahal,rajasthan.xlsx (Rajasthan),100.0,Exact match
+Humayun_s Tomb,humayun s tomb,Tomb,up.xlsx (Up),85.0,Strong fuzzy match
+India gate pics,india gate pics,India,Andaman and Nicobar Islands.xlsx (Andaman And Nicobar Islands),85.0,Strong fuzzy match
+India_gate,india gate,India,Andaman and Nicobar Islands.xlsx (Andaman And Nicobar Islands),85.0,Strong fuzzy match
+Khajuraho,khajuraho,Khajuraho & Panna National Park,india_tourism_dataset.json (Madhya Pradesh),85.0,Strong fuzzy match
+Sun Temple Konark,sun temple konark,Sun Temple,jharkhand.xlsx (Jharkhand),85.0,Strong fuzzy match
+alai_darwaza,alai darwaza,Bala Hissar Darwaza,telangana.xlsx (Telangana),77.4,Requires manual review
+alai_minar,alai minar,Iqbal Minar,telangana.xlsx (Telangana),76.2,Requires manual review
+basilica_of_bom_jesus,basilica of bom jesus,Basilica,tamil nadu.xlsx (Tamil Nadu),85.0,Strong fuzzy match
+charminar,charminar,https://www.telanganatourism.gov.in/partials/destinations/heritage-spots/hyderabad/charminar.html,telangana.xlsx (Telangana),85.0,Strong fuzzy match
+golden temple,golden temple,Golden Temple,tamil nadu.xlsx (Tamil Nadu),100.0,Exact match
+hawa mahal pics,hawa mahal pics,Hawa Mahal,rajasthan.xlsx (Rajasthan),85.0,Strong fuzzy match
+iron_pillar,iron pillar,Indroda park,gujarat.xlsx (Gujarat),60.9,Requires manual review
+jamali_kamali_tomb,jamali kamali tomb,Tomb,up.xlsx (Up),85.0,Strong fuzzy match
+lotus_temple,lotus temple,Lotus Temple,delhi.xlsx (Delhi),100.0,Exact match
+mysore_palace,mysore palace,Mysore Palace,Karnataka.xlsx (Karnataka),100.0,Exact match
+qutub_minar,qutub minar,Qutub minar,delhi.xlsx (Delhi),100.0,Exact match
+tajmahal,tajmahal,Taj Mahal,up.xlsx (Up),94.1,Strong fuzzy match
+tanjavur temple,tanjavur temple,Thanjavur Big Temple,tamil nadu.xlsx (Tamil Nadu),85.7,Strong fuzzy match
+victoria memorial,victoria memorial,Victoria Memorial,west bengal.xlsx (West Bengal),100.0,Exact match

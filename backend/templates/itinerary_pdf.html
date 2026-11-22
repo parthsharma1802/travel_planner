@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{ data.title }} - Dora AI Verified Travel Document</title>
+  <style>
+    @page {
+      size: A4 portrait;
+      margin: 12mm 14mm 14mm 14mm;
+      @bottom-left {
+        content: "Dora AI · Verified Official Travel Document";
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-size: 7.5pt;
+        color: #94a3b8;
+      }
+      @bottom-center {
+        content: "Page " counter(page);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-size: 7.5pt;
+        color: #94a3b8;
+      }
+      @bottom-right {
+        content: "dora-ai.travel · Ref: {{ data.doc_id }}";
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-size: 7.5pt;
+        color: #94a3b8;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #1e293b;
+      background-color: #ffffff;
+      font-size: 9pt;
+      line-height: 1.45;
+    }
+
+    /* Page Breaks & Flow Control */
+    .page-break {
+      page-break-after: always;
+      break-after: page;
+    }
+
+    .no-break {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    /* Official Dora AI Header Bar */
+    .top-header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 12px;
+      margin-bottom: 16px;
+      border-bottom: 2px solid #0070f3;
+    }
+
+    .brand-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .brand-logo-img {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1.5px solid #0070f3;
+    }
+
+    .brand-text-title {
+      font-size: 13pt;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.3px;
+    }
+
+    .brand-text-title span {
+      color: #0070f3;
+    }
+
+    .brand-text-subtitle {
+      font-size: 7.5pt;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #64748b;
+      font-weight: 600;
+    }
+
+    .doc-meta-right {
+      text-align: right;
+    }
+
+    .doc-badge {
+      display: inline-block;
+      background: #eff6ff;
+      color: #0070f3;
+      border: 1px solid #bfdbfe;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 7.5pt;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 3px;
+    }
+
+    .doc-info {
+      font-size: 7.5pt;
+      color: #64748b;
+      font-family: ui-monospace, Menlo, monospace;
+    }
+
+    /* Cover / Hero Header */
+    .cover-hero-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 18px 20px 16px;
+      margin-bottom: 16px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    }
+
+    .hero-eyebrow {
+      font-size: 8pt;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: #0070f3;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .hero-title {
+      font-size: 20pt;
+      font-weight: 800;
+      color: #0f172a;
+      line-height: 1.2;
+      margin-bottom: 6px;
+    }
+
+    .route-transit-banner {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-size: 10pt;
+      font-weight: 600;
+      color: #334155;
+      margin-bottom: 14px;
+    }
+
+    .route-transit-banner .dot-green {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #10b981;
+      display: inline-block;
+    }
+
+    .route-transit-banner .dot-red {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #ef4444;
+      display: inline-block;
+    }
+
+    .route-arrow {
+      color: #94a3b8;
+      font-weight: 700;
+    }
+
+    /* Destination Visual Hero Box */
+    .dest-visual-box {
+      position: relative;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 14px;
+      border: 1px solid #cbd5e1;
+      height: 180px;
+      background: #0f172a;
+    }
+
+    .dest-hero-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .dest-caption-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(to top, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.5) 70%, transparent 100%);
+      padding: 10px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      color: #ffffff;
+    }
+
+    .dest-caption-text {
+      font-size: 9pt;
+      font-weight: 600;
+    }
+
+    .dest-tag-badge {
+      font-size: 7.5pt;
+      background: rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-weight: 600;
+      backdrop-filter: blur(4px);
+    }
+
+    /* 4-Column Meta Specification Grid */
+    .meta-specs-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .meta-spec-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 8px 10px;
+    }
+
+    .meta-spec-label {
+      font-size: 7pt;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #64748b;
+      letter-spacing: 0.5px;
+      margin-bottom: 2px;
+    }
+
+    .meta-spec-val {
+      font-size: 9.5pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    /* Executive Summary Box */
+    .exec-summary-box {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-left: 4px solid #0070f3;
+      padding: 10px 12px;
+      border-radius: 0 8px 8px 0;
+      font-size: 8.5pt;
+      color: #1e3a8a;
+      line-height: 1.45;
+      margin-bottom: 14px;
+    }
+
+    /* Budget Snapshot Ribbon */
+    .budget-snapshot-ribbon {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      background: #0f172a;
+      border-radius: 8px;
+      padding: 10px 12px;
+      color: #ffffff;
+    }
+
+    .budget-item-box {
+      border-right: 1px solid rgba(255, 255, 255, 0.12);
+      padding-right: 8px;
+    }
+
+    .budget-item-box:last-child {
+      border-right: none;
+    }
+
+    .budget-item-title {
+      font-size: 7pt;
+      text-transform: uppercase;
+      color: #94a3b8;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .budget-item-amount {
+      font-size: 11pt;
+      font-weight: 800;
+      color: #ffffff;
+      margin-top: 1px;
+    }
+
+    .budget-status-tag {
+      font-size: 7.5pt;
+      color: #34d399;
+      font-weight: 700;
+    }
+
+    .budget-status-warn {
+      font-size: 7.5pt;
+      color: #f87171;
+      font-weight: 700;
+    }
+
+    /* Section Headings */
+    .section-title {
+      font-size: 11.5pt;
+      font-weight: 800;
+      color: #0f172a;
+      border-bottom: 1.5px solid #0070f3;
+      padding-bottom: 4px;
+      margin-top: 18px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+
+    .section-title span.tag {
+      font-size: 7.5pt;
+      font-weight: 600;
+      color: #0070f3;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      padding: 2px 7px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* Cards (Route, Weather, Hotel) */
+    .info-card-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .info-box {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 10px 12px;
+      break-inside: avoid;
+    }
+
+    .info-box-header {
+      font-size: 8.5pt;
+      font-weight: 700;
+      color: #0070f3;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 3px 0;
+      border-bottom: 1px dashed #f1f5f9;
+      font-size: 8.5pt;
+    }
+
+    .info-row:last-child {
+      border-bottom: none;
+    }
+
+    .info-row .label {
+      color: #64748b;
+      font-weight: 500;
+    }
+
+    .info-row .val {
+      color: #0f172a;
+      font-weight: 700;
+      text-align: right;
+    }
+
+    /* Hotel Card */
+    .hotel-card {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      break-inside: avoid;
+    }
+
+    .hotel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 6px;
+    }
+
+    .hotel-name {
+      font-size: 11pt;
+      font-weight: 800;
+      color: #0f172a;
+    }
+
+    .hotel-stars {
+      font-size: 7.5pt;
+      color: #0070f3;
+      font-weight: 700;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      padding: 1px 6px;
+      border-radius: 4px;
+    }
+
+    .hotel-meta-line {
+      font-size: 8pt;
+      color: #64748b;
+      margin-bottom: 8px;
+    }
+
+    .hotel-price-pill {
+      background: #ecfdf5;
+      color: #065f46;
+      border: 1px solid #a7f3d0;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 8.5pt;
+      font-weight: 700;
+      display: inline-block;
+    }
+
+    .hotel-amenities-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 8px;
+    }
+
+    .amenity-tag {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      color: #475569;
+      font-size: 7.5pt;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+
+    /* Day-by-Day Timeline Cards */
+    .day-block {
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      margin-bottom: 14px;
+      background: #ffffff;
+      break-inside: avoid;
+      page-break-inside: avoid;
+      overflow: hidden;
+    }
+
+    .day-header {
+      background: #0f172a;
+      color: #ffffff;
+      padding: 8px 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      break-after: avoid;
+    }
+
+    .day-badge {
+      background: #0070f3;
+      color: #ffffff;
+      font-size: 8pt;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .day-heading {
+      font-size: 10pt;
+      font-weight: 700;
+      color: #ffffff;
+      margin-left: 10px;
+      flex: 1;
+    }
+
+    .day-cost-tag {
+      font-size: 8.5pt;
+      font-weight: 700;
+      color: #38bdf8;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .day-content {
+      padding: 10px 12px;
+    }
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 8px;
+      font-size: 8.5pt;
+      table-layout: fixed;
+    }
+
+    thead {
+      display: table-header-group;
+    }
+
+    tr {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    th {
+      background-color: #f1f5f9;
+      color: #334155;
+      font-weight: 700;
+      text-align: left;
+      padding: 5px 8px;
+      border: 1px solid #e2e8f0;
+      font-size: 8pt;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+
+    td {
+      padding: 5px 8px;
+      border: 1px solid #e2e8f0;
+      color: #334155;
+      vertical-align: top;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #fafbfc;
+    }
+
+    td.text-right, th.text-right {
+      text-align: right;
+    }
+
+    /* Day Expense Breakdown Mini Table */
+    .day-budget-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 6px 8px;
+      margin-top: 8px;
+      font-size: 7.5pt;
+    }
+
+    .day-budget-col .title {
+      color: #64748b;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .day-budget-col .amt {
+      color: #0f172a;
+      font-weight: 700;
+      font-size: 8.5pt;
+      margin-top: 1px;
+    }
+
+    .stay-weather-footer {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 8px;
+      padding-top: 6px;
+      border-top: 1px dashed #e2e8f0;
+      font-size: 8pt;
+      color: #64748b;
+    }
+
+    /* Comprehensive Budget Ledger */
+    .ledger-table th {
+      background: #0f172a;
+      color: #ffffff;
+      font-size: 8pt;
+      padding: 6px 10px;
+    }
+
+    .ledger-table td {
+      padding: 6px 10px;
+    }
+
+    .ledger-table tr.total-row td {
+      background: #eff6ff;
+      color: #0070f3;
+      font-weight: 800;
+      font-size: 9.5pt;
+      border-top: 2px solid #0070f3;
+    }
+
+    .ledger-table tr.remaining-row td {
+      background: #ecfdf5;
+      color: #065f46;
+      font-weight: 700;
+    }
+
+    /* Travel Advisory Cards */
+    .advisory-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 10px;
+      margin-bottom: 14px;
+    }
+
+    .advisory-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: 8pt;
+    }
+
+    .advisory-card h5 {
+      color: #0070f3;
+      font-size: 8.5pt;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .advisory-card ul {
+      padding-left: 14px;
+      color: #475569;
+      line-height: 1.4;
+    }
+
+    /* Official Verification Seal & Footer */
+    .verification-footer-card {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin-top: 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      break-inside: avoid;
+    }
+
+    .seal-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .seal-icon-circle {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: #10b981;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14pt;
+      font-weight: 800;
+    }
+
+    .seal-text-title {
+      font-size: 9pt;
+      font-weight: 800;
+      color: #0f172a;
+    }
+
+    .seal-text-sub {
+      font-size: 7.5pt;
+      color: #64748b;
+    }
+
+    .seal-right {
+      text-align: right;
+      font-size: 7.5pt;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ======================================================== -->
+  <!-- PAGE 1: COVER & EXECUTIVE TRIP OVERVIEW                   -->
+  <!-- ======================================================== -->
+
+  <!-- Top Header Bar with Dora AI Branding -->
+  <div class="top-header-bar">
+    <div class="brand-left">
+      {% if data.dora_logo_base64 %}
+        <img src="{{ data.dora_logo_base64 }}" alt="Dora AI" class="brand-logo-img" />
+      {% else %}
+        <div class="brand-logo-img" style="background: #0070f3; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 14pt;">D</div>
+      {% endif %}
+      <div>
+        <div class="brand-text-title">Dora <span>AI</span></div>
+        <div class="brand-text-subtitle">Verified Official Travel Planner</div>
+      </div>
+    </div>
+    <div class="doc-meta-right">
+      <div class="doc-badge">OFFICIAL VERIFIED DOCUMENT</div>
+      <div class="doc-info">Ref: {{ data.doc_id }} &bull; {{ data.gen_date }}</div>
+    </div>
+  </div>
+
+  <!-- Cover / Hero Section -->
+  <div class="cover-hero-card">
+    <div class="hero-eyebrow">Personalized Travel Booklet &bull; Curated Itinerary</div>
+    <div class="hero-title">{{ data.title }}</div>
+
+    <!-- Route Banner -->
+    <div class="route-transit-banner">
+      <span class="dot-green"></span>
+      <span><strong>{{ data.origin }}</strong> (Origin)</span>
+      <span class="route-arrow">&rarr;</span>
+      <span>{{ data.transport }}</span>
+      <span class="route-arrow">&rarr;</span>
+      <span class="dot-red"></span>
+      <span><strong>{{ data.destination }}</strong> (Destination)</span>
+    </div>
+
+    <!-- Destination Visual Hero Card -->
+    {% if data.dest_visual and data.dest_visual.url %}
+      <div class="dest-visual-box">
+        <img src="{{ data.dest_visual.url }}" alt="{{ data.destination }}" class="dest-hero-image" />
+        <div class="dest-caption-overlay">
+          <div class="dest-caption-text">&bull; {{ data.dest_visual.caption }}</div>
+          <div class="dest-tag-badge">{{ data.dest_visual.badge }}</div>
+        </div>
+      </div>
+    {% endif %}
+
+    <!-- 4-Column Meta Specs -->
+    <div class="meta-specs-grid">
+      <div class="meta-spec-card">
+        <div class="meta-spec-label">Travelers</div>
+        <div class="meta-spec-val">{{ data.travelers }}</div>
+      </div>
+      <div class="meta-spec-card">
+        <div class="meta-spec-label">Duration</div>
+        <div class="meta-spec-val">{{ data.duration }}</div>
+      </div>
+      <div class="meta-spec-card">
+        <div class="meta-spec-label">Travel Mode</div>
+        <div class="meta-spec-val">{{ data.transport }}</div>
+      </div>
+      <div class="meta-spec-card">
+        <div class="meta-spec-label">Travel Window</div>
+        <div class="meta-spec-val">{{ data.dates }}</div>
+      </div>
+    </div>
+
+    <!-- Executive Overview -->
+    <div class="exec-summary-box">
+      <strong>Executive Trip Overview:</strong> {{ data.closing_note }}
+    </div>
+
+    <!-- Budget Snapshot Ribbon (Single Source of Truth) -->
+    <div class="budget-snapshot-ribbon">
+      <div class="budget-item-box">
+        <div class="budget-item-title">Total Budget</div>
+        <div class="budget-item-amount">{{ data.budget_formatted }}</div>
+      </div>
+      <div class="budget-item-box">
+        <div class="budget-item-title">Estimated Cost</div>
+        <div class="budget-item-amount">{{ data.estimated_total_formatted }}</div>
+      </div>
+      <div class="budget-item-box">
+        <div class="budget-item-title">Cost Per Person</div>
+        <div class="budget-item-amount">{{ data.per_person_formatted }}</div>
+      </div>
+      <div class="budget-item-box">
+        <div class="budget-item-title">Budget Variance</div>
+        {% if data.is_over_budget %}
+          <div class="budget-item-amount" style="color: #f87171;">+{{ data.remaining_formatted }}</div>
+          <div class="budget-status-warn">&bull; Exceeds target budget</div>
+        {% else %}
+          <div class="budget-item-amount" style="color: #34d399;">{{ data.remaining_formatted }}</div>
+          <div class="budget-status-tag">&bull; Under Budget Savings</div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Break to cleanly start Detailed Logistics on Page 2 -->
+  <div class="page-break"></div>
+
+  <!-- ======================================================== -->
+  <!-- PAGE 2: LOGISTICS, WEATHER, HOTEL & DAY 1                 -->
+  <!-- ======================================================== -->
+
+  <!-- Top bar repeat for consistency -->
+  <div class="top-header-bar">
+    <div class="brand-left">
+      {% if data.dora_logo_base64 %}
+        <img src="{{ data.dora_logo_base64 }}" alt="Dora AI" class="brand-logo-img" />
+      {% else %}
+        <div class="brand-logo-img" style="background: #0070f3; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">D</div>
+      {% endif %}
+      <div>
+        <div class="brand-text-title">Dora <span>AI</span> &bull; {{ data.destination }}</div>
+        <div class="brand-text-subtitle">Route Logistics & Hotel Specifications</div>
+      </div>
+    </div>
+    <div class="doc-meta-right">
+      <div class="doc-badge">PAGE LOGISTICS</div>
+      <div class="doc-info">{{ data.doc_id }}</div>
+    </div>
+  </div>
+
+  <!-- Route and Weather Cards Grid -->
+  <div class="info-card-grid">
+    <!-- Route & Transit Box -->
+    <div class="info-box">
+      <div class="info-box-header">
+        <span>🚗</span> Route & Transit Logistics
+      </div>
+      <div class="info-row">
+        <span class="label">Transit Mode:</span>
+        <span class="val">{{ data.transport }}</span>
+      </div>
+      <div class="info-row">
+        <span class="label">One-Way Distance:</span>
+        <span class="val">{{ data.route_distance }}</span>
+      </div>
+      <div class="info-row">
+        <span class="label">Driving / Transit Time:</span>
+        <span class="val">{{ data.route_duration }}</span>
+      </div>
+      <div class="info-row">
+        <span class="label">Corridor:</span>
+        <span class="val" style="font-size: 7.5pt;">{{ data.route_corridor }}</span>
+      </div>
+      {% if data.midpoint_stop %}
+        <div class="info-row" style="background: #ecfdf5; padding: 4px 6px; border-radius: 4px;">
+          <span class="label" style="color: #065f46;">Recommended Stop:</span>
+          <span class="val" style="color: #065f46; font-size: 7.5pt;">{{ data.midpoint_stop }}</span>
+        </div>
+      {% endif %}
+    </div>
+
+    <!-- Weather & Packing Box -->
+    <div class="info-box">
+      <div class="info-box-header">
+        <span>☀️</span> Weather & Seasonal Guide
+      </div>
+      <div class="info-row">
+        <span class="label">Expected Temperature:</span>
+        <span class="val">{{ data.weather.temp }}</span>
+      </div>
+      <div class="info-row">
+        <span class="label">Weather Condition:</span>
+        <span class="val">{{ data.weather.condition }}</span>
+      </div>
+      <div class="info-row">
+        <span class="label">Season Advisory:</span>
+        <span class="val" style="font-size: 7.5pt;">{{ data.weather.season_note }}</span>
+      </div>
+      <div class="info-row">
+        <span class="label">Packing Tip:</span>
+        <span class="val" style="font-size: 7.5pt;">{{ data.weather.packing_tip }}</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Accommodation & Recommended Hotel Card -->
+  <div class="section-title">
+    <span>Verified Accommodation Recommendation</span>
+    <span class="tag">{{ data.hotel.nights }} Nights Stay</span>
+  </div>
+
+  <div class="hotel-card">
+    <div class="hotel-header">
+      <div>
+        <div class="hotel-name">{{ data.hotel.name }}</div>
+        <div class="hotel-meta-line">{{ data.hotel.location }} &bull; {{ data.hotel.rating }}</div>
+      </div>
+      <div>
+        <span class="hotel-stars">{{ data.hotel.stars }}</span>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <div class="hotel-price-pill">
+        Rate: {{ data.hotel.price_per_night }} &bull; Total Stay Cost: {{ data.hotel.total_cost }}
+      </div>
+      <div style="font-size: 7.5pt; color: #64748b; font-weight: 600;">
+        Included in Hotel Budget Allocation ({{ data.cat_hotels }})
+      </div>
+    </div>
+    <div class="hotel-amenities-tags">
+      {% for am in data.hotel.amenities %}
+        <span class="amenity-tag">&check; {{ am }}</span>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Day-wise Itinerary Header -->
+  <div class="section-title">
+    <span>Detailed Day-by-Day Schedule</span>
+    <span class="tag">{{ data.num_days }} Days Total</span>
+  </div>
+
+  <!-- Day Cards Loop -->
+  {% for day in data.days %}
+    <div class="day-block no-break">
+      <div class="day-header">
+        <span class="day-badge">Day {{ day.day_num }}</span>
+        <span class="day-heading">{{ day.title }}</span>
+        <span class="day-cost-tag">Day Budget: {{ day.day_total_cost }}</span>
+      </div>
+      <div class="day-content">
+        <!-- Activities Table -->
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 14%;">Time Slot</th>
+              <th style="width: 50%;">Planned Activity & Highlights</th>
+              <th style="width: 22%;">Location / Venue</th>
+              <th style="width: 14%;" class="text-right">Est. Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for act in day.activities %}
+              <tr>
+                <td><strong>{{ act.time }}</strong></td>
+                <td>{{ act.activity }}</td>
+                <td>{{ act.location }}</td>
+                <td class="text-right">{{ act.cost }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+
+        <!-- Day Expense Breakdown Mini Strip -->
+        <div class="day-budget-strip">
+          <div class="day-budget-col">
+            <div class="title">Stay Allocation</div>
+            <div class="amt">{{ day.day_stay_cost }}</div>
+          </div>
+          <div class="day-budget-col">
+            <div class="title">Food & Dining</div>
+            <div class="amt">{{ day.day_food_cost }}</div>
+          </div>
+          <div class="day-budget-col">
+            <div class="title">Local Transit</div>
+            <div class="amt">{{ day.day_transport_cost }}</div>
+          </div>
+          <div class="day-budget-col">
+            <div class="title">Sightseeing / Fees</div>
+            <div class="amt">{{ day.day_activities_cost }}</div>
+          </div>
+        </div>
+
+        <div class="stay-weather-footer">
+          <span>🏨 <strong>Stay Area:</strong> {{ day.stay_area }}</span>
+          <span>🌤 <strong>Weather:</strong> {{ day.weather_note }}</span>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+  <!-- Page Break Before Final Comprehensive Budget Ledger -->
+  <div class="page-break"></div>
+
+  <!-- ======================================================== -->
+  <!-- PAGE 3: ITEMISED BUDGET LEDGER & TRAVEL ADVISORY          -->
+  <!-- ======================================================== -->
+
+  <div class="top-header-bar">
+    <div class="brand-left">
+      {% if data.dora_logo_base64 %}
+        <img src="{{ data.dora_logo_base64 }}" alt="Dora AI" class="brand-logo-img" />
+      {% else %}
+        <div class="brand-logo-img" style="background: #0070f3; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">D</div>
+      {% endif %}
+      <div>
+        <div class="brand-text-title">Dora <span>AI</span> &bull; Financial Ledger</div>
+        <div class="brand-text-subtitle">Validated Itemized Budget & Travel Advisory</div>
+      </div>
+    </div>
+    <div class="doc-meta-right">
+      <div class="doc-badge">EXPENSE AUDIT</div>
+      <div class="doc-info">Ref: {{ data.doc_id }}</div>
+    </div>
+  </div>
+
+  <!-- Comprehensive Budget Ledger Table -->
+  <div class="section-title">
+    <span>Itemized Trip Expense Ledger</span>
+    <span class="tag">Zero Discrepancy Verified</span>
+  </div>
+
+  <table class="ledger-table">
+    <thead>
+      <tr>
+        <th style="width: 35%;">Expense Category</th>
+        <th style="width: 45%;">Coverage & Calculation Basis</th>
+        <th style="width: 20%;" class="text-right">Total Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>🚗 Transport & Highway Transit</strong></td>
+        <td>Intercity travel ({{ data.origin }} &harr; {{ data.destination }}), fuel, express highway tolls & city cabs</td>
+        <td class="text-right"><strong>{{ data.cat_transport }}</strong></td>
+      </tr>
+      <tr>
+        <td><strong>🏨 Hotel & Accommodation</strong></td>
+        <td>{{ data.num_nights }} Nights stay for {{ data.travelers }} at {{ data.hotel.name }}</td>
+        <td class="text-right"><strong>{{ data.cat_hotels }}</strong></td>
+      </tr>
+      <tr>
+        <td><strong>🍽 Food, Dining & Local Cuisine</strong></td>
+        <td>Breakfast, lunch, evening tea/snacks & dinners across {{ data.num_days }} days</td>
+        <td class="text-right"><strong>{{ data.cat_food }}</strong></td>
+      </tr>
+      <tr>
+        <td><strong>🎟 Sightseeing, Monuments & Activities</strong></td>
+        <td>Monument entry tickets, palace admissions, and local activity fees</td>
+        <td class="text-right"><strong>{{ data.cat_activities }}</strong></td>
+      </tr>
+      <tr>
+        <td><strong>🛡 Incidentals & Emergency Buffer</strong></td>
+        <td>Miscellaneous local purchases, hydration, tips, and unforeseen contingencies</td>
+        <td class="text-right"><strong>{{ data.cat_other }}</strong></td>
+      </tr>
+      <tr class="total-row">
+        <td>Total Estimated Expenses</td>
+        <td>Reconciled total for all {{ data.travelers }} across {{ data.num_days }} days</td>
+        <td class="text-right">{{ data.estimated_total_formatted }}</td>
+      </tr>
+      <tr>
+        <td><strong>Allocated User Budget</strong></td>
+        <td>Target budget limit specified for this trip</td>
+        <td class="text-right"><strong>{{ data.budget_formatted }}</strong></td>
+      </tr>
+      {% if data.is_over_budget %}
+        <tr style="background: #fef2f2; color: #dc2626; font-weight: 700;">
+          <td>Budget Variance</td>
+          <td>Trip estimated total exceeds targeted budget limit</td>
+          <td class="text-right">+{{ data.remaining_formatted }} (Over Budget)</td>
+        </tr>
+      {% else %}
+        <tr class="remaining-row">
+          <td>Remaining Surplus / Savings</td>
+          <td>Unallocated budget safely retained</td>
+          <td class="text-right">{{ data.remaining_formatted }} (Under Budget)</td>
+        </tr>
+      {% endif %}
+    </tbody>
+  </table>
+
+  <!-- Travel Advisory & Local Guidelines -->
+  <div class="section-title">
+    <span>Smart Travel Advisory & Guidelines</span>
+    <span class="tag">Local Best Practices</span>
+  </div>
+
+  <div class="advisory-grid">
+    <div class="advisory-card">
+      <h5>🏛 Monument & Timing Advisory</h5>
+      <ul>
+        <li>Purchase Rajasthan composite entry tickets at Amber Fort or online via departmental portal to bypass ticket queues.</li>
+        <li>Early mornings (8:30 AM - 10:30 AM) are ideal for hilltop forts before tourist buses arrive and daytime heat peaks.</li>
+        <li>Keep valid photo IDs handy for all travelers at all ticketing kiosks.</li>
+      </ul>
+    </div>
+    <div class="advisory-card">
+      <h5>🛣 Driving & Road Safety Guidelines</h5>
+      <ul>
+        <li>Ensure Fastag is recharged with at least ₹1,500 for Delhi - Jaipur Expressway toll plazas.</li>
+        <li>Strict speed enforcement on expressway corridors (100 km/h for private light vehicles).</li>
+        <li>Behror / Neemrana rest stops have certified 24/7 food courts and clean sanitary amenities.</li>
+      </ul>
+    </div>
+    <div class="advisory-card">
+      <h5>🍛 Dining & Cultural Etiquette</h5>
+      <ul>
+        <li>Savor authentic Dal Baati Churma, Ghewar, and Pyaaz Kachori from historic heritage establishments.</li>
+        <li>Drink only packaged or purified water; carry reusable insulated bottles during fort exploration.</li>
+        <li>Modest attire is respected when visiting active temples and religious premises.</li>
+      </ul>
+    </div>
+    <div class="advisory-card">
+      <h5>📞 Emergency Contacts & Helpline</h5>
+      <ul>
+        <li><strong>National Police / Emergency:</strong> Dial 112</li>
+        <li><strong>Tourist Helpline (Govt of India):</strong> Dial 1363 (24/7 Multi-lingual)</li>
+        <li><strong>Highway Patrol & Ambulance:</strong> Dial 1033 (NHAI)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Official Verification Seal -->
+  <div class="verification-footer-card">
+    <div class="seal-left">
+      <div class="seal-icon-circle">&check;</div>
+      <div>
+        <div class="seal-text-title">Dora AI Verified Travel Document</div>
+        <div class="seal-text-sub">Engineered with single-source-of-truth mathematical validation &bull; All rights reserved.</div>
+      </div>
+    </div>
+    <div class="seal-right">
+      <div><strong>Document Status:</strong> FINAL VERIFIED</div>
+      <div><strong>Generated:</strong> {{ data.gen_date }}</div>
+      <div style="font-family: monospace;">UUID: {{ data.doc_id }}</div>
+    </div>
+  </div>
+
+</body>
+</html>

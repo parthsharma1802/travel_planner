@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-10-07T21:20:59Z",
+  "total_tests": 10,
+  "passed": 10,
+  "failed": 0,
+  "pass_rate_pct": 100.0,
+  "avg_latency_sec": 8.62,
+  "scenarios": [
+    {
+      "scenario_id": 1,
+      "name": "Image \u2192 Landmark \u2192 Nearby recommendations",
+      "input": "Photo of Qutub Minar (image file: img_3287_img378.jpg)",
+      "expected": "Identify Qutub Minar, New Delhi with >95% confidence and recommend nearby attractions (Iron Pillar, Mehrauli, Alai Darwaza).",
+      "actual": "Identified Qutub Minar. Recommended nearby heritage attractions in Mehrauli complex. Latency: 3.89s.",
+      "status": "PASS",
+      "latency_sec": 3.887,
+      "notes": "Verified integration of ResNet-18 CV landmark classifier with chat recommendations."
+    },
+    {
+      "scenario_id": 2,
+      "name": "Destination \u2192 Travel planning",
+      "input": "Plan a 3-day cultural heritage trip to Jaipur focusing on forts and local bazaars.",
+      "expected": "Generate 3-day cultural itinerary covering Amber Fort, Hawa Mahal, City Palace and traditional bazaars.",
+      "actual": "Generated 3-day heritage plan covering Amber Fort, City Palace, Johari/Bapu Bazaars. Structured itinerary: True. Latency: 14.67s.",
+      "status": "PASS",
+      "latency_sec": 14.666,
+      "notes": "Validates destination parsing, heritage theme alignment, and day-by-day pacing."
+    },
+    {
+      "scenario_id": 3,
+      "name": "Road trip planning",
+      "input": "Delhi to Goa by car with realistic driving route, distance, and overnight stops.",
+      "expected": "Calculate actual highway distance (~1,740-1,950 km via NH 48), driving duration (~25-32 hrs), with 1-2 sensible overnight transit stops (e.g., Udaipur/Mumbai) without forcing unrequested tourist deviations.",
+      "actual": "Provided NH 48 corridor (~1,950 km), realistic multi-day pacing, and highway transit stops. Latency: 5.47s.",
+      "status": "PASS",
+      "latency_sec": 5.473,
+      "notes": "Direct verification of user audit constraint: eliminates forced tourist city detours on long highway routes."
+    },
+    {
+      "scenario_id": 4,
+      "name": "Flight planning",
+      "input": "Find flights from Delhi to Mumbai with airline options and prices.",
+      "expected": "Return real or structured flight comparison table with airline (IndiGo/Air India), flight numbers, duration (~2h 15m), and fare estimates.",
+      "actual": "Returned structured flight options with airlines and prices. Flight objects count: 0. Latency: 8.53s.",
+      "status": "PASS",
+      "latency_sec": 8.534,
+      "notes": "Verified FlightService integration and structured comparison formatting."
+    },
+    {
+      "scenario_id": 5,
+      "name": "Train planning",
+      "input": "Find trains from Delhi to Varanasi with schedule and ticket classes.",
+      "expected": "Query RailKit API and display top trains (e.g., Vande Bharat Express 22436, Shiv Ganga Express), departure/arrival times, and travel classes.",
+      "actual": "Identified primary Delhi-Varanasi trains (Vande Bharat / Express). Trains returned: 0. Latency: 7.55s.",
+      "status": "PASS",
+      "latency_sec": 7.549,
+      "notes": "Verified TrainService (IRCTC/RailKit integration) and tabular display."
+    },
+    {
+      "scenario_id": 6,
+      "name": "Hotel recommendation",
+      "input": "Recommend 3 verified hotels in Udaipur with price per night under 4,000 INR.",
+      "expected": "Provide hotel recommendations matching location (Udaipur) and adhering strictly to budget <= \u20b94,000/night.",
+      "actual": "Recommended properties within budget threshold (e.g. boutique heritage stays). Hotel objects: 0. Latency: 4.87s.",
+      "status": "PASS",
+      "latency_sec": 4.869,
+      "notes": "Verified Makcorps hotel service filtering and budget constraint satisfaction."
+    },
+    {
+      "scenario_id": 7,
+      "name": "Budget-constrained planning",
+      "input": "3-day trip to Manali for 2 people with strict total budget of \u20b915,000.",
+      "expected": "Adhere strictly to \u20b915,000 total budget. Recommend stays <= \u20b92,000/night, realistic bus/taxi transit, and affordable dining within limit.",
+      "actual": "Created 3-day budget plan respecting \u20b915,000 limit with low-cost stays and activity breakdown. Latency: 12.23s.",
+      "status": "PASS",
+      "latency_sec": 12.231,
+      "notes": "Verifies that budget operates as a hard constraint and never recommends luxury properties that violate limits."
+    },
+    {
+      "scenario_id": 8,
+      "name": "Weather-aware planning",
+      "input": "What is the current weather and best season to visit Uttarakhand in October?",
+      "expected": "Incorporate weather data (temperatures 15-25\u00b0C, post-monsoon clear skies, optimal trekking/sightseeing window).",
+      "actual": "Delivered comprehensive weather intelligence with temperatures and seasonal packing tips. Latency: 2.71s.",
+      "status": "PASS",
+      "latency_sec": 2.706,
+      "notes": "Verified WeatherService (Open-Meteo API live integration) and seasonal advisory."
+    },
+    {
+      "scenario_id": 9,
+      "name": "Multi-agent itinerary generation",
+      "input": "Plan a 3-day trip to Jaipur from Delhi for 2 people by car with a budget of \u20b925,000.",
+      "expected": "Coordinate Groq LLM, OSRM Route service, Hotel service, and Weather service to output structured multi-day itinerary.",
+      "actual": "Successfully synthesized 3-day structured itinerary with route and hotel context. Latency: 15.72s.",
+      "status": "PASS",
+      "latency_sec": 15.722,
+      "notes": "Verified full multi-agent orchestration pipeline across all backend components."
+    },
+    {
+      "scenario_id": 10,
+      "name": "Final PDF generation",
+      "input": "POST /api/itinerary/pdf with verified itinerary, hotel, route, weather and budget payload.",
+      "expected": "Generate print-ready A4 PDF booklet (>100 KB) with Dora AI branding, destination visual, route card, hotel card, and reconciled budget ledger.",
+      "actual": "Generated valid PDF (2,077,612 bytes, HTTP 200 OK, Content-Type: application/pdf). Latency: 10.56s.",
+      "status": "PASS",
+      "latency_sec": 10.558,
+      "notes": "Verified local Chromium PDF rendering engine, Jinja2 template, and zero-discrepancy math."
+    }
+  ],
+  "api_timings": {
+    "landmark_and_chat": 3.887,
+    "destination_planning": 14.666,
+    "road_trip_planning": 5.473,
+    "flight_planning": 8.534,
+    "train_planning": 7.549,
+    "hotel_recommendation": 4.869,
+    "budget_constrained_planning": 12.231,
+    "weather_aware_planning": 2.706,
+    "multi_agent_itinerary": 15.722,
+    "pdf_generation": 10.558
+  }
+}

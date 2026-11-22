@@ -1,0 +1,25 @@
+canonical_class,total_images,train,val,test
+Ajanta Caves,89,63,13,13
+Alai Darwaza,102,71,15,16
+Alai Minar,166,115,25,26
+Basilica of Bom Jesus,64,45,9,10
+Charar-E-Sharif,76,56,10,10
+Charminar,199,137,31,31
+Chhota Imambara,40,28,6,6
+Ellora Caves,83,57,14,12
+Fatehpur Sikri,42,29,6,7
+Gateway of India,149,103,23,23
+Golden Temple,201,140,30,31
+Hawa Mahal,270,189,40,41
+Humayun's Tomb,144,101,22,21
+India Gate,178,124,26,28
+Iron Pillar,333,233,50,50
+Jamali Kamali Tomb,192,134,29,29
+Khajuraho,44,31,7,6
+Lotus Temple,23,16,3,4
+Mysore Palace,101,70,15,16
+Qutub Minar,332,232,50,50
+Sun Temple Konark,135,94,20,21
+Taj Mahal,243,170,36,37
+Tanjavur Temple,183,127,28,28
+Victoria Memorial,183,129,28,26

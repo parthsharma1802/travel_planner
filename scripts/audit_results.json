@@ -1,0 +1,174 @@
+{
+  "weather_service": {
+    "status": "WORKING",
+    "delhi_weather": "Clear sky \u2600\ufe0f",
+    "delhi_temp": 33.7,
+    "goa_season": "Prime Coastal & Beach Season",
+    "goa_summary": "Gentle sea breeze, warm sunny days (26\u201331\u00b0C), and calm turquoise waters."
+  },
+  "map_service": {
+    "status": "WORKING",
+    "delhi_coords": [
+      28.6139,
+      77.209
+    ],
+    "route_found": "success",
+    "total_km": 1740.7,
+    "duration": "21 hrs 2 mins",
+    "geometry_present": true
+  },
+  "tourism_service": {
+    "status": "WORKING",
+    "total_destinations_search": 3,
+    "sample_destination": "Goa",
+    "sample_state": "Goa",
+    "sample_category": "Tourist Attraction"
+  },
+  "recommendation_engine": {
+    "status": "WORKING",
+    "total_recs": 5,
+    "intermediate_stops": [
+      "Udaipur",
+      "Ahmedabad",
+      "Mumbai",
+      "Pune"
+    ],
+    "top_rec": "Club Mahindra Resort - Varca Beach - Goa"
+  },
+  "landmark_service": {
+    "status": "WORKING",
+    "is_loaded": true,
+    "num_classes": 24,
+    "device": "mps",
+    "sample_classes": [
+      "Ajanta Caves",
+      "Alai Darwaza",
+      "Alai Minar",
+      "Basilica of Bom Jesus",
+      "Charar-E-Sharif"
+    ]
+  },
+  "scene_service": {
+    "status": "WORKING",
+    "model_status": {
+      "model_loaded": true,
+      "device": "mps",
+      "categories_count": 365,
+      "checkpoint_path": "/Users/dakshdedha/travel_planner/models/places365/resnet18_places365.pth"
+    }
+  },
+  "visual_similarity_service": {
+    "status": "NOT_READY",
+    "status_details": {
+      "faiss_loaded": true,
+      "device": "mps",
+      "total_vectors": 3572,
+      "metadata_rows": 3572,
+      "index_path": "/Users/dakshdedha/travel_planner/data/embeddings/monuments.index"
+    }
+  },
+  "train_service": {
+    "status": "WORKING",
+    "api_status": "success",
+    "total_trains": 3,
+    "sample_train": {
+      "train_number": "22656",
+      "train_name": "NZM ERS SF EXP",
+      "departure_time": "05:00",
+      "arrival_time": "12:30",
+      "duration": "31:30 hrs",
+      "from_station_code": "NZM",
+      "from_station_name": "Hazrat Nizamuddin",
+      "to_station_code": "MAO",
+      "to_station_name": "Madgaon",
+      "running_days": "0000100",
+      "distance_km": 300,
+      "halts": 10
+    }
+  },
+  "flight_service": {
+    "status": "WORKING",
+    "api_status": "success",
+    "total_flights": 3,
+    "sample_flight": {
+      "airline": "IndiGo",
+      "flight_number": "6E 2277",
+      "departure_airport_code": "DEL",
+      "departure_airport_name": "Indira Gandhi International Airport",
+      "departure_time": "10:25",
+      "arrival_airport_code": "GOI",
+      "arrival_airport_name": "Goa Dabolim International Airport",
+      "arrival_time": "12:55",
+      "duration": "2h 30m",
+      "duration_minutes": 150,
+      "stops": 0,
+      "is_non_stop": true,
+      "layovers": [],
+      "price": 7633,
+      "currency": "INR",
+      "travel_class": "Economy",
+      "airplane": "Airbus A321neo",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJUzBoNGNWRnZRekp0V1c5QmJXUmlTVkZDUnkwdExTMHRMUzB0TFc5cmNIZ3hNVUZCUVVGQlIzSkhUbTlyUzNoMWJFRkJFZ1kyUlRJeU56Y2FDZ2pST3hBQUdnTkpUbEk0SEhETlBRPT0iLFtbIkRFTCIsIjIwMjYtMTAtMTQiLCJHT0kiLG51bGwsIjZFIiwiMjI3NyJdXV0="
+    }
+  },
+  "hotel_service": {
+    "status": "WORKING",
+    "api_status": "success",
+    "total_hotels": 1,
+    "sample_hotel": {
+      "hotel_name": "Taj Exotica Resort & Spa, Goa",
+      "hotel_id": "66312",
+      "city": "Benaulim, Goa",
+      "lowest_price_usd": 210.0,
+      "lowest_price_inr": 17535,
+      "best_vendor": "Booking.com",
+      "rating": 4.8,
+      "vendor_offers": [
+        {
+          "vendor": "Booking.com",
+          "price_usd": 210.0,
+          "tax_usd": 37.0,
+          "price_inr": 17535
+        },
+        {
+          "vendor": "Hotels.com",
+          "price_usd": 215.0,
+          "tax_usd": 38.0,
+          "price_inr": 17952
+        }
+      ],
+      "price_type": "Indicative / Reference Price (May vary by travel dates)",
+      "indicative_price_inr": 17535,
+      "indicative_price_usd": 210.0
+    }
+  },
+  "storage_services": {
+    "status": "WORKING",
+    "saved_trips_count": 0,
+    "journal_posts_count": 0
+  },
+  "pdf_service": {
+    "status": "WORKING",
+    "pdf_size_bytes": 382395
+  },
+  "grok_service_delhi_goa": {
+    "status": "WORKING",
+    "intent": "trip_planning",
+    "preferences": {
+      "starting_point": "Delhi",
+      "destination": "Goa",
+      "dates": null,
+      "duration": null,
+      "budget": null,
+      "travelers": null,
+      "transport": "Car (Self-drive)",
+      "spiritual_focus": null,
+      "interests": [],
+      "travel_style": null
+    },
+    "itinerary_present": false,
+    "route_data_present": false,
+    "message_snippet": "Awesome! A Delhi\u2011to\u2011Goa road\u2011trip by car is a classic adventure. \ud83d\ude97\n\nHow many days are you thinking of spending on the journey (including time in Goa), and how many people will be traveling with you? Let me know, and I\u2019ll sketch out a realistic driving plan with nice stopovers and a fun itinerary."
+  }
+}

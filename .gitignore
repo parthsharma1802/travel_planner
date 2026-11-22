@@ -1,0 +1,55 @@
+# Virtual Environment
+venv/
+.venv*/
+ENV/
+env/
+
+# Environment Variables
+.env
+.env.local
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Node & Frontend
+node_modules/
+dist/
+build/
+.npm/
+
+# Datasets & Embeddings (Large Files)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/embeddings/*
+!data/embeddings/.gitkeep
+
+# Model Checkpoints & Large Weights
+models/trained/*
+!models/trained/.gitkeep
+models/places365/*.pth
+models/places365/*.pth.tar
+*.pth
+*.pt
+*.bin
+*.onnx
+
+# OS & IDE Files
+.DS_Store
+.vscode/
+.idea/
+
+# Temp & Log Files
+*.log
+tmp/
+scratch/
+
+# Source archives
+*.zip

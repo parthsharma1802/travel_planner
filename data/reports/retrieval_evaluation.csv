@@ -1,0 +1,543 @@
+query_image_path,query_class,query_destination_id,top1_retrieved_class,top1_retrieved_score,top1_hit,top5_hit
+data/processed/monuments/qutub_minar/img_2148_img301.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.9199507236480713,True,True
+data/processed/monuments/qutub_minar/img_2685_img297.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8757581114768982,True,True
+data/processed/monuments/qutub_minar/img_1078_img277.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.9304868578910828,True,True
+data/processed/monuments/qutub_minar/img_0744_img140.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8817325234413147,True,True
+data/processed/monuments/qutub_minar/img_1938_img101.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8698364496231079,True,True
+data/processed/monuments/qutub_minar/img_2651_img247.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.9056136608123779,True,True
+data/processed/monuments/qutub_minar/img_3288_img408.jpg,Qutub Minar,IND_QUTUB_MINAR,Iron Pillar,0.7417678236961365,False,False
+data/processed/monuments/qutub_minar/img_2719_img245.jpg,Qutub Minar,IND_QUTUB_MINAR,Alai Darwaza,0.8558152318000793,False,True
+data/processed/monuments/qutub_minar/img_1001_img203.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8841474056243896,True,True
+data/processed/monuments/qutub_minar/img_2398_img351.png,Qutub Minar,IND_QUTUB_MINAR,Iron Pillar,0.7454906702041626,False,True
+data/processed/monuments/qutub_minar/img_2495_img173.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.9071502685546875,True,True
+data/processed/monuments/qutub_minar/img_0621_img35.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8902633786201477,True,True
+data/processed/monuments/qutub_minar/img_2887_img237.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8933936953544617,True,True
+data/processed/monuments/qutub_minar/img_0178_img122.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.7692767977714539,True,True
+data/processed/monuments/qutub_minar/img_1238_img102.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.9298183917999268,True,True
+data/processed/monuments/qutub_minar/img_0150_img383.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8956745862960815,True,True
+data/processed/monuments/qutub_minar/img_2275_img88.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8617680668830872,True,True
+data/processed/monuments/qutub_minar/img_1220_img2.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.9443078637123108,True,True
+data/processed/monuments/qutub_minar/img_1019_img370.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.869443953037262,True,True
+data/processed/monuments/qutub_minar/img_0047_img18.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8807976841926575,True,True
+data/processed/monuments/qutub_minar/img_3380_img156.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8742141723632812,True,True
+data/processed/monuments/qutub_minar/img_0703_img447.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.9121575951576233,True,True
+data/processed/monuments/qutub_minar/img_1585_img292.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8277329802513123,True,True
+data/processed/monuments/qutub_minar/img_0832_img139.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8826351761817932,True,True
+data/processed/monuments/qutub_minar/img_2939_img455.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8814814686775208,True,True
+data/processed/monuments/qutub_minar/img_0412_img168.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.9229376912117004,True,True
+data/processed/monuments/qutub_minar/img_3429_img22.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8776021003723145,True,True
+data/processed/monuments/qutub_minar/img_0228_img14.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.9312046766281128,True,True
+data/processed/monuments/qutub_minar/img_2745_img34.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.797829270362854,True,True
+data/processed/monuments/qutub_minar/img_0438_img324.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.7590281963348389,True,True
+data/processed/monuments/qutub_minar/img_0808_img144.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8845251798629761,True,True
+data/processed/monuments/qutub_minar/img_0418_img409.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.904761016368866,True,True
+data/processed/monuments/qutub_minar/img_1327_img10.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.9764413237571716,True,True
+data/processed/monuments/qutub_minar/img_3318_img114.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8938459753990173,True,True
+data/processed/monuments/qutub_minar/img_0894_img59.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8737685680389404,True,True
+data/processed/monuments/qutub_minar/img_2216_img358.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8456954956054688,True,True
+data/processed/monuments/qutub_minar/img_2011_img430.jpg,Qutub Minar,IND_QUTUB_MINAR,Tanjavur Temple,0.7433826327323914,False,False
+data/processed/monuments/qutub_minar/img_0741_img65.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.9078935384750366,True,True
+data/processed/monuments/qutub_minar/img_1778_img393.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.841911256313324,True,True
+data/processed/monuments/qutub_minar/img_2658_img8.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.9909429550170898,True,True
+data/processed/monuments/qutub_minar/img_3123_img227.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8915461897850037,True,True
+data/processed/monuments/qutub_minar/img_0565_img364.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8084946870803833,True,True
+data/processed/monuments/qutub_minar/img_1519_img379.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8581101894378662,True,True
+data/processed/monuments/qutub_minar/img_2923_img96.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.9127798080444336,True,True
+data/processed/monuments/qutub_minar/img_2854_img169.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.8580774068832397,True,True
+data/processed/monuments/qutub_minar/img_0227_img438.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.870851993560791,True,True
+data/processed/monuments/qutub_minar/img_1440_img143.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.9276095628738403,True,True
+data/processed/monuments/qutub_minar/img_0067_img371.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.860831618309021,True,True
+data/processed/monuments/qutub_minar/img_3536_img39.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.917868971824646,True,True
+data/processed/monuments/qutub_minar/img_1634_img89.jpg,Qutub Minar,IND_QUTUB_MINAR,Qutub Minar,0.9104210138320923,True,True
+data/processed/monuments/tajmahal/img_1888_24.jpg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.8666070699691772,True,True
+data/processed/monuments/tajmahal/img_0940_gettyimages-539786533-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.8246839046478271,True,True
+data/processed/monuments/tajmahal/img_1402_gettyimages-945205274-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Chhota Imambara,0.8508721590042114,False,False
+data/processed/monuments/tajmahal/img_0579_gettyimages-1155677865-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.8611716628074646,True,True
+data/processed/monuments/tajmahal/img_0854_gettyimages-1306755173-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.9125134944915771,True,True
+data/processed/monuments/tajmahal/img_1384_gettyimages-1228628267-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.8981598615646362,True,True
+data/processed/monuments/tajmahal/img_1014_87.jpg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.8896251320838928,True,True
+data/processed/monuments/tajmahal/img_0835_13.jpg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.829956591129303,True,True
+data/processed/monuments/tajmahal/img_1593_15.jpg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.9510787725448608,True,True
+data/processed/monuments/tajmahal/img_2545_gettyimages-555765885-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.87706059217453,True,True
+data/processed/monuments/tajmahal/img_0281_gettyimages-509658462-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.9090916514396667,True,True
+data/processed/monuments/tajmahal/img_0473_gettyimages-1087609794-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.8860417008399963,True,True
+data/processed/monuments/tajmahal/img_0088_50.jpg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.9450809359550476,True,True
+data/processed/monuments/tajmahal/img_2859_79.jpg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.8981494307518005,True,True
+data/processed/monuments/tajmahal/img_2476_51.jpg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.9158911108970642,True,True
+data/processed/monuments/tajmahal/img_2692_gettyimages-588506767-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.8027437329292297,True,True
+data/processed/monuments/tajmahal/img_1037_gettyimages-690397986-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.841925859451294,True,True
+data/processed/monuments/tajmahal/img_2888_gettyimages-591407619-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.8044977188110352,True,True
+data/processed/monuments/tajmahal/img_0806_gettyimages-690396148-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.8371726274490356,True,True
+data/processed/monuments/tajmahal/img_1360_gettyimages-1233486136-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.9069639444351196,True,True
+data/processed/monuments/tajmahal/img_2009_68.jpg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.898776113986969,True,True
+data/processed/monuments/tajmahal/img_3447_62.jpg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.9067779183387756,True,True
+data/processed/monuments/tajmahal/img_0193_8.jpg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.923197329044342,True,True
+data/processed/monuments/tajmahal/img_3202_22.jpg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.9325694441795349,True,True
+data/processed/monuments/tajmahal/img_1518_gettyimages-717372313-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.854263186454773,True,True
+data/processed/monuments/tajmahal/img_1298_gettyimages-1228628271-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.8894879221916199,True,True
+data/processed/monuments/tajmahal/img_1965_gettyimages-1236597409-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.8982129096984863,True,True
+data/processed/monuments/tajmahal/img_1723_6.jpg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.9025881886482239,True,True
+data/processed/monuments/tajmahal/img_1545_88.jpg,Taj Mahal,IND_TAJMAHAL,Victoria Memorial,0.8339853882789612,False,True
+data/processed/monuments/tajmahal/img_2270_gettyimages-1228628226-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.8713661432266235,True,True
+data/processed/monuments/tajmahal/img_0338_gettyimages-1149792527-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.8716134428977966,True,True
+data/processed/monuments/tajmahal/img_3200_74.jpg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.8837476372718811,True,True
+data/processed/monuments/tajmahal/img_2701_gettyimages-868604070-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.9479891061782837,True,True
+data/processed/monuments/tajmahal/img_0138_45.jpg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.9082068204879761,True,True
+data/processed/monuments/tajmahal/img_3171_gettyimages-1143902672-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.8888117074966431,True,True
+data/processed/monuments/tajmahal/img_3065_gettyimages-506229984-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.8933685421943665,True,True
+data/processed/monuments/tajmahal/img_0113_gettyimages-521897442-612x612.jpeg,Taj Mahal,IND_TAJMAHAL,Taj Mahal,0.9077851176261902,True,True
+data/processed/monuments/Gateway of India/img_0127_164.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.9374688863754272,True,True
+data/processed/monuments/Gateway of India/img_1457_146.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.8879019618034363,True,True
+data/processed/monuments/Gateway of India/img_1970_6.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.9975080490112305,True,True
+data/processed/monuments/Gateway of India/img_3427_132.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.9975075721740723,True,True
+data/processed/monuments/Gateway of India/img_0196_170.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.8973994255065918,True,True
+data/processed/monuments/Gateway of India/img_3245_32.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.8726791739463806,True,True
+data/processed/monuments/Gateway of India/img_1614_149.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.9379228949546814,True,True
+data/processed/monuments/Gateway of India/img_0757_8.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,India Gate,0.8998015522956848,False,False
+data/processed/monuments/Gateway of India/img_1250_102.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.8906153440475464,True,True
+data/processed/monuments/Gateway of India/img_2170_80.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.8494149446487427,True,True
+data/processed/monuments/Gateway of India/img_2824_116 (1).jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.9120354056358337,True,True
+data/processed/monuments/Gateway of India/img_1738_15.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.9398631453514099,True,True
+data/processed/monuments/Gateway of India/img_1469_172.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.9051938056945801,True,True
+data/processed/monuments/Gateway of India/img_1708_55.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.9325307011604309,True,True
+data/processed/monuments/Gateway of India/img_2544_51.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.8539668917655945,True,True
+data/processed/monuments/Gateway of India/img_0694_31.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.8942602276802063,True,True
+data/processed/monuments/Gateway of India/img_1024_109.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.9130065441131592,True,True
+data/processed/monuments/Gateway of India/img_0636_56.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.9675160050392151,True,True
+data/processed/monuments/Gateway of India/img_1553_9.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.9314802885055542,True,True
+data/processed/monuments/Gateway of India/img_1030_119 (1).jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.9358252882957458,True,True
+data/processed/monuments/Gateway of India/img_3517_3.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.8957135081291199,True,True
+data/processed/monuments/Gateway of India/img_1531_34.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.9401689171791077,True,True
+data/processed/monuments/Gateway of India/img_0999_7.jpg,Gateway of India,IND_GATEWAY_OF_INDIA,Gateway of India,0.8016974329948425,True,True
+data/processed/monuments/Sun Temple Konark/img_2802_(123).jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.8589069247245789,True,True
+data/processed/monuments/Sun Temple Konark/img_0964_17.jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.962912380695343,True,True
+data/processed/monuments/Sun Temple Konark/img_1418_(110).jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.9462722539901733,True,True
+data/processed/monuments/Sun Temple Konark/img_3305_(101).jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.8793870806694031,True,True
+data/processed/monuments/Sun Temple Konark/img_2546_(119).jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.8530611991882324,True,True
+data/processed/monuments/Sun Temple Konark/img_2979_(57).jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.9093968868255615,True,True
+data/processed/monuments/Sun Temple Konark/img_2363_(122).jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.9106637835502625,True,True
+data/processed/monuments/Sun Temple Konark/img_1102_(98).jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.8559041023254395,True,True
+data/processed/monuments/Sun Temple Konark/img_1654_40.jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.9468134045600891,True,True
+data/processed/monuments/Sun Temple Konark/img_1952_(49).jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.924069881439209,True,True
+data/processed/monuments/Sun Temple Konark/img_2759_37.jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.8977014422416687,True,True
+data/processed/monuments/Sun Temple Konark/img_1511_24.jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.8000739216804504,True,True
+data/processed/monuments/Sun Temple Konark/img_2533_(127).jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.8956104516983032,True,True
+data/processed/monuments/Sun Temple Konark/img_0022_12.jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.9006652235984802,True,True
+data/processed/monuments/Sun Temple Konark/img_0362_(92).jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.8985708951950073,True,True
+data/processed/monuments/Sun Temple Konark/img_3024_18.jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.8579815030097961,True,True
+data/processed/monuments/Sun Temple Konark/img_1376_(143).jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.9246420860290527,True,True
+data/processed/monuments/Sun Temple Konark/img_3409_8.jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.9257607460021973,True,True
+data/processed/monuments/Sun Temple Konark/img_2026_(130).jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.9038076400756836,True,True
+data/processed/monuments/Sun Temple Konark/img_0052_(155).jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.9260198473930359,True,True
+data/processed/monuments/Sun Temple Konark/img_2890_36.jpg,Sun Temple Konark,IND_SUN_TEMPLE_KONARK,Sun Temple Konark,0.8969049453735352,True,True
+data/processed/monuments/alai_minar/img_2594_img187.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.9326842427253723,True,True
+data/processed/monuments/alai_minar/img_3163_img109.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.9326841235160828,True,True
+data/processed/monuments/alai_minar/img_2178_img388.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.9065499305725098,True,True
+data/processed/monuments/alai_minar/img_2998_img110.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.863459587097168,True,True
+data/processed/monuments/alai_minar/img_0512_img90.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.9056819081306458,True,True
+data/processed/monuments/alai_minar/img_0481_img122.jpeg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.8502548933029175,True,True
+data/processed/monuments/alai_minar/img_3490_img61.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.7366131544113159,True,True
+data/processed/monuments/alai_minar/img_3032_img207.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.9194598197937012,True,True
+data/processed/monuments/alai_minar/img_1089_img144.jpeg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.7623789310455322,True,True
+data/processed/monuments/alai_minar/img_1816_img172.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.8313369154930115,True,True
+data/processed/monuments/alai_minar/img_1246_img349.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.9267168641090393,True,True
+data/processed/monuments/alai_minar/img_3116_img210.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.9267174005508423,True,True
+data/processed/monuments/alai_minar/img_0914_img136.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.8013682961463928,True,True
+data/processed/monuments/alai_minar/img_2880_img57.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.9412993788719177,True,True
+data/processed/monuments/alai_minar/img_1973_img47.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.9290325045585632,True,True
+data/processed/monuments/alai_minar/img_1198_img80.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.8971545100212097,True,True
+data/processed/monuments/alai_minar/img_0031_img149.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.8755443096160889,True,True
+data/processed/monuments/alai_minar/img_1467_img393.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.951274573802948,True,True
+data/processed/monuments/alai_minar/img_2041_img91.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.927105188369751,True,True
+data/processed/monuments/alai_minar/img_0213_img64.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.8907540440559387,True,True
+data/processed/monuments/alai_minar/img_2236_img193.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.8660516738891602,True,True
+data/processed/monuments/alai_minar/img_1873_img103.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.9218279123306274,True,True
+data/processed/monuments/alai_minar/img_0234_img135.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.9234287142753601,True,True
+data/processed/monuments/alai_minar/img_1801_img84.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.8917831182479858,True,True
+data/processed/monuments/alai_minar/img_1535_img37.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.9081320762634277,True,True
+data/processed/monuments/alai_minar/img_0144_img18.jpg,Alai Minar,IND_ALAI_MINAR,Alai Minar,0.9444937705993652,True,True
+data/processed/monuments/Ajanta Caves/img_2997_28.jpg,Ajanta Caves,IND_AJANTA_CAVES,Ajanta Caves,0.838061511516571,True,True
+data/processed/monuments/Ajanta Caves/img_0805_(96).jpg,Ajanta Caves,IND_AJANTA_CAVES,Ajanta Caves,0.9099723696708679,True,True
+data/processed/monuments/Ajanta Caves/img_0526_(58).jpg,Ajanta Caves,IND_AJANTA_CAVES,Ajanta Caves,0.8813716769218445,True,True
+data/processed/monuments/Ajanta Caves/img_1949_(52).jpg,Ajanta Caves,IND_AJANTA_CAVES,Ajanta Caves,0.877689003944397,True,True
+data/processed/monuments/Ajanta Caves/img_1379_(55).jpg,Ajanta Caves,IND_AJANTA_CAVES,Ajanta Caves,0.9276999831199646,True,True
+data/processed/monuments/Ajanta Caves/img_0037_24.jpg,Ajanta Caves,IND_AJANTA_CAVES,Ajanta Caves,0.8297353982925415,True,True
+data/processed/monuments/Ajanta Caves/img_2082_(93).jpg,Ajanta Caves,IND_AJANTA_CAVES,Ajanta Caves,0.9165596961975098,True,True
+data/processed/monuments/Ajanta Caves/img_0462_(82).jpg,Ajanta Caves,IND_AJANTA_CAVES,Ajanta Caves,0.950519323348999,True,True
+data/processed/monuments/Ajanta Caves/img_2116_(77).jpg,Ajanta Caves,IND_AJANTA_CAVES,Ajanta Caves,0.8362153768539429,True,True
+data/processed/monuments/Ajanta Caves/img_0156_(79).jpg,Ajanta Caves,IND_AJANTA_CAVES,Ajanta Caves,0.9339209794998169,True,True
+data/processed/monuments/Ajanta Caves/img_3449_(95).jpg,Ajanta Caves,IND_AJANTA_CAVES,Ajanta Caves,0.9099726676940918,True,True
+data/processed/monuments/Ajanta Caves/img_2311_(67).jpg,Ajanta Caves,IND_AJANTA_CAVES,Ajanta Caves,0.9126554727554321,True,True
+data/processed/monuments/Ajanta Caves/img_2767_8.jpg,Ajanta Caves,IND_AJANTA_CAVES,Ajanta Caves,0.8983892202377319,True,True
+data/processed/monuments/alai_darwaza/img_2376_img20.jpg,Alai Darwaza,IND_ALAI_DARWAZA,Alai Darwaza,0.9189107418060303,True,True
+data/processed/monuments/alai_darwaza/img_2159_img42.jpg,Alai Darwaza,IND_ALAI_DARWAZA,Alai Darwaza,0.9248565435409546,True,True
+data/processed/monuments/alai_darwaza/img_1378_img39.jpg,Alai Darwaza,IND_ALAI_DARWAZA,Alai Darwaza,0.9218652844429016,True,True
+data/processed/monuments/alai_darwaza/img_2313_img102.jpg,Alai Darwaza,IND_ALAI_DARWAZA,Alai Darwaza,0.9197098612785339,True,True
+data/processed/monuments/alai_darwaza/img_2200_img150.jpg,Alai Darwaza,IND_ALAI_DARWAZA,Alai Darwaza,0.9060924649238586,True,True
+data/processed/monuments/alai_darwaza/img_3341_img3.jpg,Alai Darwaza,IND_ALAI_DARWAZA,Alai Darwaza,0.978951096534729,True,True
+data/processed/monuments/alai_darwaza/img_3394_img18.jpg,Alai Darwaza,IND_ALAI_DARWAZA,Alai Darwaza,0.9248568415641785,True,True
+data/processed/monuments/alai_darwaza/img_3483_img220.jpg,Alai Darwaza,IND_ALAI_DARWAZA,Alai Darwaza,0.8218227624893188,True,True
+data/processed/monuments/alai_darwaza/img_0843_img29.jpg,Alai Darwaza,IND_ALAI_DARWAZA,Alai Darwaza,0.9436112642288208,True,True
+data/processed/monuments/alai_darwaza/img_2575_img121.jpg,Alai Darwaza,IND_ALAI_DARWAZA,Alai Darwaza,0.9103636741638184,True,True
+data/processed/monuments/alai_darwaza/img_1935_img256.jpg,Alai Darwaza,IND_ALAI_DARWAZA,Alai Darwaza,0.8895242810249329,True,True
+data/processed/monuments/alai_darwaza/img_1540_img580.jpg,Alai Darwaza,IND_ALAI_DARWAZA,Alai Darwaza,0.9374310970306396,True,True
+data/processed/monuments/alai_darwaza/img_2122_img2.jpg,Alai Darwaza,IND_ALAI_DARWAZA,Alai Darwaza,0.9065108299255371,True,True
+data/processed/monuments/alai_darwaza/img_2710_img260.jpg,Alai Darwaza,IND_ALAI_DARWAZA,Alai Darwaza,0.9304406046867371,True,True
+data/processed/monuments/alai_darwaza/img_0523_img151.jpg,Alai Darwaza,IND_ALAI_DARWAZA,Alai Darwaza,0.9298348426818848,True,True
+data/processed/monuments/alai_darwaza/img_1339_img5.jpg,Alai Darwaza,IND_ALAI_DARWAZA,Alai Darwaza,0.9331760406494141,True,True
+data/processed/monuments/tanjavur temple/img_0864_49.jpg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.8920727372169495,True,True
+data/processed/monuments/tanjavur temple/img_2579_61.jpeg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Golden Temple,0.7841318845748901,False,True
+data/processed/monuments/tanjavur temple/img_0132_83.jpg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.8991456627845764,True,True
+data/processed/monuments/tanjavur temple/img_2214_43.jpg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.8993573784828186,True,True
+data/processed/monuments/tanjavur temple/img_1730_4.jpeg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.8683971166610718,True,True
+data/processed/monuments/tanjavur temple/img_2761_30.jpg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.9113103747367859,True,True
+data/processed/monuments/tanjavur temple/img_0428_10.jpeg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.876430094242096,True,True
+data/processed/monuments/tanjavur temple/img_2881_6.jpeg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.8366495370864868,True,True
+data/processed/monuments/tanjavur temple/img_1899_36.jpg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.8409877419471741,True,True
+data/processed/monuments/tanjavur temple/img_1076_55.jpeg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.8788096904754639,True,True
+data/processed/monuments/tanjavur temple/img_0086_16.jpeg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.8477632403373718,True,True
+data/processed/monuments/tanjavur temple/img_1530_9.jpeg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.8939849734306335,True,True
+data/processed/monuments/tanjavur temple/img_2280_15.jpeg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.8020673990249634,True,True
+data/processed/monuments/tanjavur temple/img_1546_24.jpg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.9146270155906677,True,True
+data/processed/monuments/tanjavur temple/img_2633_15.jpeg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.7820310592651367,True,True
+data/processed/monuments/tanjavur temple/img_3239_25.jpeg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.9168437123298645,True,True
+data/processed/monuments/tanjavur temple/img_3414_16.jpg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.933857262134552,True,True
+data/processed/monuments/tanjavur temple/img_0212_19.jpeg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.8352838158607483,True,True
+data/processed/monuments/tanjavur temple/img_2070_69.jpg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.8656124472618103,True,True
+data/processed/monuments/tanjavur temple/img_0609_90.jpg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.8791725039482117,True,True
+data/processed/monuments/tanjavur temple/img_2347_39.jpg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.835872232913971,True,True
+data/processed/monuments/tanjavur temple/img_2484_87.jpg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.9057440161705017,True,True
+data/processed/monuments/tanjavur temple/img_3010_60.jpeg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.820838451385498,True,True
+data/processed/monuments/tanjavur temple/img_3259_51.jpg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.873065173625946,True,True
+data/processed/monuments/tanjavur temple/img_2382_100.jpg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.9002121686935425,True,True
+data/processed/monuments/tanjavur temple/img_2576_24.jpeg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.7550550103187561,True,True
+data/processed/monuments/tanjavur temple/img_3232_8.jpeg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Iron Pillar,0.759373128414154,False,True
+data/processed/monuments/tanjavur temple/img_1759_62.jpeg,Tanjavur Temple,IND_TANJAVUR_TEMPLE,Tanjavur Temple,0.8783330917358398,True,True
+data/processed/monuments/India gate pics/img_2941_i (18).jpg,India Gate,IND_INDIA_GATE,India Gate,0.9332196116447449,True,True
+data/processed/monuments/India_gate/img_0642_i (99).jpg,India Gate,IND_INDIA_GATE,India Gate,0.9201239943504333,True,True
+data/processed/monuments/India_gate/img_2069_images-17.jpeg,India Gate,IND_INDIA_GATE,India Gate,0.8411681652069092,True,True
+data/processed/monuments/India gate pics/img_0147_12.jpeg,India Gate,IND_INDIA_GATE,India Gate,0.7635674476623535,True,True
+data/processed/monuments/India_gate/img_2626_i (97).jpg,India Gate,IND_INDIA_GATE,India Gate,0.9201405644416809,True,True
+data/processed/monuments/India gate pics/img_0380_images-12.jpeg,India Gate,IND_INDIA_GATE,India Gate,0.8676760792732239,True,True
+data/processed/monuments/India gate pics/img_0206_i (67).jpg,India Gate,IND_INDIA_GATE,India Gate,0.919337272644043,True,True
+data/processed/monuments/India gate pics/img_0087_i (70).jpg,India Gate,IND_INDIA_GATE,India Gate,0.877438485622406,True,True
+data/processed/monuments/India gate pics/img_2137_i (27).jpg,India Gate,IND_INDIA_GATE,India Gate,0.8878979682922363,True,True
+data/processed/monuments/India gate pics/img_3127_i (74).jpg,India Gate,IND_INDIA_GATE,India Gate,0.9432259798049927,True,True
+data/processed/monuments/India gate pics/img_0289_9.jpeg,India Gate,IND_INDIA_GATE,India Gate,0.8283106088638306,True,True
+data/processed/monuments/India gate pics/img_2547_29.jpeg,India Gate,IND_INDIA_GATE,India Gate,0.8170053958892822,True,True
+data/processed/monuments/India_gate/img_1498_i (83).jpg,India Gate,IND_INDIA_GATE,India Gate,0.9288787245750427,True,True
+data/processed/monuments/India gate pics/img_1792_i (72).jpg,India Gate,IND_INDIA_GATE,India Gate,0.9281777143478394,True,True
+data/processed/monuments/India gate pics/img_2360_10.jpeg,India Gate,IND_INDIA_GATE,India Gate,0.8840153813362122,True,True
+data/processed/monuments/India_gate/img_1693_i (90).jpg,India Gate,IND_INDIA_GATE,India Gate,0.9341749548912048,True,True
+data/processed/monuments/India gate pics/img_1619_i (25).jpg,India Gate,IND_INDIA_GATE,India Gate,0.9133204817771912,True,True
+data/processed/monuments/India_gate/img_0838_images-5.jpeg,India Gate,IND_INDIA_GATE,India Gate,0.9981684684753418,True,True
+data/processed/monuments/India gate pics/img_1006_images-39.jpeg,India Gate,IND_INDIA_GATE,India Gate,0.9981683492660522,True,True
+data/processed/monuments/India gate pics/img_0275_images-5.jpeg,India Gate,IND_INDIA_GATE,India Gate,0.8433759212493896,True,True
+data/processed/monuments/India_gate/img_2166_images-24.jpeg,India Gate,IND_INDIA_GATE,India Gate,0.8930996060371399,True,True
+data/processed/monuments/India gate pics/img_3238_Unknown.jpeg,India Gate,IND_INDIA_GATE,India Gate,0.8619730472564697,True,True
+data/processed/monuments/India gate pics/img_0111_images-32.jpeg,India Gate,IND_INDIA_GATE,India Gate,0.8373005986213684,True,True
+data/processed/monuments/India gate pics/img_0860_i (51).jpg,India Gate,IND_INDIA_GATE,India Gate,0.9473170638084412,True,True
+data/processed/monuments/India gate pics/img_0328_i (64).jpg,India Gate,IND_INDIA_GATE,India Gate,0.8968936800956726,True,True
+data/processed/monuments/India gate pics/img_3364_images-38.jpeg,India Gate,IND_INDIA_GATE,India Gate,0.9159881472587585,True,True
+data/processed/monuments/India gate pics/img_2867_images-29.jpeg,India Gate,IND_INDIA_GATE,India Gate,0.8210288286209106,True,True
+data/processed/monuments/India_gate/img_3176_i (88).jpg,India Gate,IND_INDIA_GATE,India Gate,0.8897933959960938,True,True
+data/processed/monuments/Ellora Caves/img_3504_(97).jpg,Ellora Caves,IND_ELLORA_CAVES,Ellora Caves,0.876518726348877,True,True
+data/processed/monuments/Ellora Caves/img_2492_19.jpg,Ellora Caves,IND_ELLORA_CAVES,Ellora Caves,0.920129120349884,True,True
+data/processed/monuments/Ellora Caves/img_3502_(49).jpg,Ellora Caves,IND_ELLORA_CAVES,Ellora Caves,0.8463655710220337,True,True
+data/processed/monuments/Ellora Caves/img_1574_(51).jpg,Ellora Caves,IND_ELLORA_CAVES,Ellora Caves,0.8660916686058044,True,True
+data/processed/monuments/Ellora Caves/img_1661_6.jpg,Ellora Caves,IND_ELLORA_CAVES,Ellora Caves,0.9248133897781372,True,True
+data/processed/monuments/Ellora Caves/img_3335_(45).jpg,Ellora Caves,IND_ELLORA_CAVES,Ellora Caves,0.8420308828353882,True,True
+data/processed/monuments/Ellora Caves/img_0794_(69).jpg,Ellora Caves,IND_ELLORA_CAVES,Ellora Caves,0.8628301620483398,True,True
+data/processed/monuments/Ellora Caves/img_3219_5.jpg,Ellora Caves,IND_ELLORA_CAVES,Ellora Caves,0.9992288947105408,True,True
+data/processed/monuments/Ellora Caves/img_3507_26.jpg,Ellora Caves,IND_ELLORA_CAVES,Ellora Caves,0.9992285966873169,True,True
+data/processed/monuments/Ellora Caves/img_2756_(43).jpg,Ellora Caves,IND_ELLORA_CAVES,Ellora Caves,0.9248130321502686,True,True
+data/processed/monuments/Ellora Caves/img_1685_(59).jpg,Ellora Caves,IND_ELLORA_CAVES,Ellora Caves,0.8478339314460754,True,True
+data/processed/monuments/Ellora Caves/img_2857_(58).jpg,Ellora Caves,IND_ELLORA_CAVES,Ellora Caves,0.7619020342826843,True,True
+data/processed/monuments/basilica_of_bom_jesus/img_2213_43 - Copy.jpg,Basilica of Bom Jesus,IND_BASILICA_OF_BOM_JESUS,Basilica of Bom Jesus,0.8901932239532471,True,True
+data/processed/monuments/basilica_of_bom_jesus/img_0320_44 - Copy.jpg,Basilica of Bom Jesus,IND_BASILICA_OF_BOM_JESUS,Basilica of Bom Jesus,0.8901934027671814,True,True
+data/processed/monuments/basilica_of_bom_jesus/img_3334_7 - Copy.jpg,Basilica of Bom Jesus,IND_BASILICA_OF_BOM_JESUS,Basilica of Bom Jesus,0.9009295105934143,True,True
+data/processed/monuments/basilica_of_bom_jesus/img_2558_31 - Copy.jpg,Basilica of Bom Jesus,IND_BASILICA_OF_BOM_JESUS,Basilica of Bom Jesus,0.8111786246299744,True,True
+data/processed/monuments/basilica_of_bom_jesus/img_0093_21.jpg,Basilica of Bom Jesus,IND_BASILICA_OF_BOM_JESUS,Basilica of Bom Jesus,0.9513245820999146,True,True
+data/processed/monuments/basilica_of_bom_jesus/img_1177_30 - Copy.jpg,Basilica of Bom Jesus,IND_BASILICA_OF_BOM_JESUS,Basilica of Bom Jesus,0.9319265484809875,True,True
+data/processed/monuments/basilica_of_bom_jesus/img_1660_27.jpg,Basilica of Bom Jesus,IND_BASILICA_OF_BOM_JESUS,Basilica of Bom Jesus,0.8856348395347595,True,True
+data/processed/monuments/basilica_of_bom_jesus/img_2125_22.jpg,Basilica of Bom Jesus,IND_BASILICA_OF_BOM_JESUS,Basilica of Bom Jesus,0.9374563097953796,True,True
+data/processed/monuments/basilica_of_bom_jesus/img_2405_23.jpg,Basilica of Bom Jesus,IND_BASILICA_OF_BOM_JESUS,Jamali Kamali Tomb,0.7789205312728882,False,False
+data/processed/monuments/basilica_of_bom_jesus/img_1316_29.jpg,Basilica of Bom Jesus,IND_BASILICA_OF_BOM_JESUS,Basilica of Bom Jesus,0.9606195092201233,True,True
+data/processed/monuments/golden temple/img_0863_images-20 (1).jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.9039440155029297,True,True
+data/processed/monuments/golden temple/img_2435_images-43.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.8023061752319336,True,True
+data/processed/monuments/golden temple/img_1812_33.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.9230930209159851,True,True
+data/processed/monuments/golden temple/img_2619_89.jpg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.8902864456176758,True,True
+data/processed/monuments/golden temple/img_1207_8.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.9423077702522278,True,True
+data/processed/monuments/golden temple/img_0443_36.jpg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.9089915156364441,True,True
+data/processed/monuments/golden temple/img_2490_images-6.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.9180123209953308,True,True
+data/processed/monuments/golden temple/img_0685_11.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.9391847848892212,True,True
+data/processed/monuments/golden temple/img_0082_93.jpg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.9019661545753479,True,True
+data/processed/monuments/golden temple/img_0618_24.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.7671318054199219,True,True
+data/processed/monuments/golden temple/img_2718_38.jpg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.9030370116233826,True,True
+data/processed/monuments/golden temple/img_2179_56.jpg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.8967450857162476,True,True
+data/processed/monuments/golden temple/img_1213_images-57.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.9145737290382385,True,True
+data/processed/monuments/golden temple/img_2764_36.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.7973833680152893,True,True
+data/processed/monuments/golden temple/img_3181_images-17.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.7391600012779236,True,True
+data/processed/monuments/golden temple/img_2157_46.jpg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.8927161693572998,True,True
+data/processed/monuments/golden temple/img_0973_45.jpg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.8622393012046814,True,True
+data/processed/monuments/golden temple/img_1243_67.jpg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.8923361897468567,True,True
+data/processed/monuments/golden temple/img_0400_images-41.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.8702266812324524,True,True
+data/processed/monuments/golden temple/img_3379_images-64.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.8984662890434265,True,True
+data/processed/monuments/golden temple/img_1975_images-26.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.8512264490127563,True,True
+data/processed/monuments/golden temple/img_0588_63.jpg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.9019238352775574,True,True
+data/processed/monuments/golden temple/img_2517_16.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.8097536563873291,True,True
+data/processed/monuments/golden temple/img_1507_4.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.9965384006500244,True,True
+data/processed/monuments/golden temple/img_3057_5.jpg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.9965383410453796,True,True
+data/processed/monuments/golden temple/img_1010_images-62.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.8824877142906189,True,True
+data/processed/monuments/golden temple/img_0601_22.jpg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.9288579225540161,True,True
+data/processed/monuments/golden temple/img_2911_27.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.8606700301170349,True,True
+data/processed/monuments/golden temple/img_0194_31.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.9557950496673584,True,True
+data/processed/monuments/golden temple/img_3389_47.jpg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.9557949304580688,True,True
+data/processed/monuments/golden temple/img_3230_images-77.jpeg,Golden Temple,IND_GOLDEN_TEMPLE,Golden Temple,0.9288581013679504,True,True
+data/processed/monuments/mysore_palace/img_2053_60.jpg,Mysore Palace,IND_MYSORE_PALACE,Mysore Palace,0.9088143706321716,True,True
+data/processed/monuments/mysore_palace/img_0938_26.jpg,Mysore Palace,IND_MYSORE_PALACE,Mysore Palace,0.7998122572898865,True,True
+data/processed/monuments/mysore_palace/img_2588_24.jpg,Mysore Palace,IND_MYSORE_PALACE,Mysore Palace,0.7442177534103394,True,True
+data/processed/monuments/mysore_palace/img_0440_1.jpg,Mysore Palace,IND_MYSORE_PALACE,Mysore Palace,1.000000238418579,True,True
+data/processed/monuments/mysore_palace/img_3408_1.jpg,Mysore Palace,IND_MYSORE_PALACE,Mysore Palace,1.000000238418579,True,True
+data/processed/monuments/mysore_palace/img_0285_64.jpg,Mysore Palace,IND_MYSORE_PALACE,Mysore Palace,0.8425732254981995,True,True
+data/processed/monuments/mysore_palace/img_1336_41.jpg,Mysore Palace,IND_MYSORE_PALACE,Mysore Palace,0.8605847358703613,True,True
+data/processed/monuments/mysore_palace/img_0530_89.jpg,Mysore Palace,IND_MYSORE_PALACE,Mysore Palace,0.8605279922485352,True,True
+data/processed/monuments/mysore_palace/img_1295_15.jpg,Mysore Palace,IND_MYSORE_PALACE,Mysore Palace,0.8747764229774475,True,True
+data/processed/monuments/mysore_palace/img_2084_68.jpg,Mysore Palace,IND_MYSORE_PALACE,Mysore Palace,0.8989272713661194,True,True
+data/processed/monuments/mysore_palace/img_0653_48.jpg,Mysore Palace,IND_MYSORE_PALACE,Mysore Palace,0.836432158946991,True,True
+data/processed/monuments/mysore_palace/img_2144_20.jpg,Mysore Palace,IND_MYSORE_PALACE,Mysore Palace,0.9804251790046692,True,True
+data/processed/monuments/mysore_palace/img_2075_9.jpg,Mysore Palace,IND_MYSORE_PALACE,Chhota Imambara,0.8091763257980347,False,True
+data/processed/monuments/mysore_palace/img_1069_22.jpg,Mysore Palace,IND_MYSORE_PALACE,Mysore Palace,0.897878110408783,True,True
+data/processed/monuments/mysore_palace/img_2296_2.jpg,Mysore Palace,IND_MYSORE_PALACE,Mysore Palace,0.8752365112304688,True,True
+data/processed/monuments/mysore_palace/img_2305_71.jpg,Mysore Palace,IND_MYSORE_PALACE,Mysore Palace,0.8945230841636658,True,True
+data/processed/monuments/jamali_kamali_tomb/img_1137_img24.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.9455971121788025,True,True
+data/processed/monuments/jamali_kamali_tomb/img_3315_img15.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Humayun's Tomb,0.8181456923484802,False,False
+data/processed/monuments/jamali_kamali_tomb/img_3444_img102.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.94515460729599,True,True
+data/processed/monuments/jamali_kamali_tomb/img_0520_img3.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.9346702694892883,True,True
+data/processed/monuments/jamali_kamali_tomb/img_1083_img388.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.9444530010223389,True,True
+data/processed/monuments/jamali_kamali_tomb/img_1963_img46.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.9217147827148438,True,True
+data/processed/monuments/jamali_kamali_tomb/img_2528_img167.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.9445205926895142,True,True
+data/processed/monuments/jamali_kamali_tomb/img_1917_img89.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.9106726050376892,True,True
+data/processed/monuments/jamali_kamali_tomb/img_2852_img261.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.8869829773902893,True,True
+data/processed/monuments/jamali_kamali_tomb/img_2555_img150.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.8645028471946716,True,True
+data/processed/monuments/jamali_kamali_tomb/img_2776_img87.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.8421806693077087,True,True
+data/processed/monuments/jamali_kamali_tomb/img_3353_img19.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.9199554324150085,True,True
+data/processed/monuments/jamali_kamali_tomb/img_0252_img82.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.9319389462471008,True,True
+data/processed/monuments/jamali_kamali_tomb/img_0056_img342.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.9035789370536804,True,True
+data/processed/monuments/jamali_kamali_tomb/img_1218_img54.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.9130030870437622,True,True
+data/processed/monuments/jamali_kamali_tomb/img_2486_img100.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.8668417930603027,True,True
+data/processed/monuments/jamali_kamali_tomb/img_0039_img341.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.8682665824890137,True,True
+data/processed/monuments/jamali_kamali_tomb/img_3258_img1.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.8909053802490234,True,True
+data/processed/monuments/jamali_kamali_tomb/img_0917_img16.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.8482944965362549,True,True
+data/processed/monuments/jamali_kamali_tomb/img_0433_img371.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.9296351075172424,True,True
+data/processed/monuments/jamali_kamali_tomb/img_3356_img81.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.9542973637580872,True,True
+data/processed/monuments/jamali_kamali_tomb/img_2608_img71.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.9318478107452393,True,True
+data/processed/monuments/jamali_kamali_tomb/img_1416_img221.jpeg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.8940563797950745,True,True
+data/processed/monuments/jamali_kamali_tomb/img_3064_img362.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.8872367739677429,True,True
+data/processed/monuments/jamali_kamali_tomb/img_0928_img39.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.902127206325531,True,True
+data/processed/monuments/jamali_kamali_tomb/img_0969_img152.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.8907944560050964,True,True
+data/processed/monuments/jamali_kamali_tomb/img_0639_img198.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.8597768545150757,True,True
+data/processed/monuments/jamali_kamali_tomb/img_0620_img2.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.9542977809906006,True,True
+data/processed/monuments/jamali_kamali_tomb/img_0464_img347.jpg,Jamali Kamali Tomb,IND_JAMALI_KAMALI_TOMB,Jamali Kamali Tomb,0.8719374537467957,True,True
+data/processed/monuments/Charar-E- Sharif/img_3119_83.jpg,Charar-E-Sharif,UNMAPPED_CHARAR-E-SHARIF,Charar-E-Sharif,0.8979682326316833,True,True
+data/processed/monuments/Charar-E- Sharif/img_0488_35 - Copy.jpg,Charar-E-Sharif,UNMAPPED_CHARAR-E-SHARIF,Charar-E-Sharif,0.9194377660751343,True,True
+data/processed/monuments/Charar-E- Sharif/img_0770_13 - Copy.jpg,Charar-E-Sharif,UNMAPPED_CHARAR-E-SHARIF,Charar-E-Sharif,0.9131489992141724,True,True
+data/processed/monuments/Charar-E- Sharif/img_2877_66.jpg,Charar-E-Sharif,UNMAPPED_CHARAR-E-SHARIF,Charar-E-Sharif,0.8933810591697693,True,True
+data/processed/monuments/Charar-E- Sharif/img_1971_20.jpg,Charar-E-Sharif,UNMAPPED_CHARAR-E-SHARIF,Charar-E-Sharif,0.8677124977111816,True,True
+data/processed/monuments/Charar-E- Sharif/img_0781_4 - Copy.jpg,Charar-E-Sharif,UNMAPPED_CHARAR-E-SHARIF,Charar-E-Sharif,0.9552631378173828,True,True
+data/processed/monuments/Charar-E- Sharif/img_0972_7 - Copy.jpg,Charar-E-Sharif,UNMAPPED_CHARAR-E-SHARIF,Charar-E-Sharif,0.9860380291938782,True,True
+data/processed/monuments/Charar-E- Sharif/img_3218_2 - Copy.jpg,Charar-E-Sharif,UNMAPPED_CHARAR-E-SHARIF,Charar-E-Sharif,0.9147870540618896,True,True
+data/processed/monuments/Charar-E- Sharif/img_1662_56.jpg,Charar-E-Sharif,UNMAPPED_CHARAR-E-SHARIF,Charar-E-Sharif,0.8603278994560242,True,True
+data/processed/monuments/Charar-E- Sharif/img_0551_53.jpg,Charar-E-Sharif,UNMAPPED_CHARAR-E-SHARIF,Charar-E-Sharif,0.8875862956047058,True,True
+data/processed/monuments/victoria memorial/img_3151_199.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.9003645777702332,True,True
+data/processed/monuments/victoria memorial/img_2139_185.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.9445348978042603,True,True
+data/processed/monuments/victoria memorial/img_3419_109.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.9024938941001892,True,True
+data/processed/monuments/victoria memorial/img_2825_139.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.9038895964622498,True,True
+data/processed/monuments/victoria memorial/img_2060_3.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.9242082238197327,True,True
+data/processed/monuments/victoria memorial/img_0624_54.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.901286780834198,True,True
+data/processed/monuments/victoria memorial/img_3281_155.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.9080415964126587,True,True
+data/processed/monuments/victoria memorial/img_1205_80.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.919725775718689,True,True
+data/processed/monuments/victoria memorial/img_1297_145.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.9036500453948975,True,True
+data/processed/monuments/victoria memorial/img_3568_100.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.8999927043914795,True,True
+data/processed/monuments/victoria memorial/img_3277_182.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Chhota Imambara,0.7796328067779541,False,False
+data/processed/monuments/victoria memorial/img_2671_27.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.8946783542633057,True,True
+data/processed/monuments/victoria memorial/img_1613_136.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.8975919485092163,True,True
+data/processed/monuments/victoria memorial/img_2733_42.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.861175000667572,True,True
+data/processed/monuments/victoria memorial/img_0349_200.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.9330121278762817,True,True
+data/processed/monuments/victoria memorial/img_0348_192.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.9266492128372192,True,True
+data/processed/monuments/victoria memorial/img_1852_167.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.8949936032295227,True,True
+data/processed/monuments/victoria memorial/img_1895_64.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.92893385887146,True,True
+data/processed/monuments/victoria memorial/img_0875_151.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.9392216205596924,True,True
+data/processed/monuments/victoria memorial/img_2138_144.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Taj Mahal,0.7872053384780884,False,True
+data/processed/monuments/victoria memorial/img_0424_161.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.8812845945358276,True,True
+data/processed/monuments/victoria memorial/img_3213_116.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.9528607726097107,True,True
+data/processed/monuments/victoria memorial/img_3445_91.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.8980594277381897,True,True
+data/processed/monuments/victoria memorial/img_3457_129.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.8937918543815613,True,True
+data/processed/monuments/victoria memorial/img_2725_6.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.8630423545837402,True,True
+data/processed/monuments/victoria memorial/img_1995_34.jpg,Victoria Memorial,IND_VICTORIA_MEMORIAL,Victoria Memorial,0.9115715026855469,True,True
+data/processed/monuments/hawa mahal pics/img_3560_images-44.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.7656330466270447,True,True
+data/processed/monuments/hawa mahal pics/img_1423_images-69.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.8893445730209351,True,True
+data/processed/monuments/hawa mahal pics/img_3196_images-55.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.8930379748344421,True,True
+data/processed/monuments/Hawa mahal/img_2836_images-146.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.8502541184425354,True,True
+data/processed/monuments/hawa mahal pics/img_1870_m (46).jpg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.8924621939659119,True,True
+data/processed/monuments/hawa mahal pics/img_0074_images-88.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.8396775126457214,True,True
+data/processed/monuments/Hawa mahal/img_0826_images-166.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.8721901178359985,True,True
+data/processed/monuments/hawa mahal pics/img_2949_m (79).jpg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.9141997694969177,True,True
+data/processed/monuments/hawa mahal pics/img_1979_images-47.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.8795002102851868,True,True
+data/processed/monuments/hawa mahal pics/img_2174_m (63).jpg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.9273231625556946,True,True
+data/processed/monuments/Hawa mahal/img_0136_images-140.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.8669224381446838,True,True
+data/processed/monuments/hawa mahal pics/img_0392_images-40.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.9226314425468445,True,True
+data/processed/monuments/hawa mahal pics/img_0065_m (70).jpg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.915726363658905,True,True
+data/processed/monuments/Hawa mahal/img_1536_images-173.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.7653456330299377,True,True
+data/processed/monuments/hawa mahal pics/img_1428_m (59).jpg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.9074299335479736,True,True
+data/processed/monuments/hawa mahal pics/img_3198_m (48).jpg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.9258031845092773,True,True
+data/processed/monuments/hawa mahal pics/img_3393_images-46.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.826967179775238,True,True
+data/processed/monuments/Hawa mahal/img_1094_images-135.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.881825864315033,True,True
+data/processed/monuments/hawa mahal pics/img_2728_m (67).jpg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.9406065940856934,True,True
+data/processed/monuments/Hawa mahal/img_1196_images-161.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.801070511341095,True,True
+data/processed/monuments/hawa mahal pics/img_0848_images-36.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.7840186357498169,True,True
+data/processed/monuments/hawa mahal pics/img_1093_images-50.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.8432565331459045,True,True
+data/processed/monuments/hawa mahal pics/img_2673_images-107.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.8731982111930847,True,True
+data/processed/monuments/hawa mahal pics/img_1512_m (20).jpg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.9380233883857727,True,True
+data/processed/monuments/hawa mahal pics/img_2498_images-68.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.8672044277191162,True,True
+data/processed/monuments/Hawa mahal/img_2538_m (91).jpg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.9276499152183533,True,True
+data/processed/monuments/Hawa mahal/img_3058_m (84).jpg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.9226314425468445,True,True
+data/processed/monuments/Hawa mahal/img_1222_images-123.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Taj Mahal,0.7678477764129639,False,True
+data/processed/monuments/hawa mahal pics/img_1913_images-78.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.7724378705024719,True,True
+data/processed/monuments/hawa mahal pics/img_0985_m (53).jpg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.8764585852622986,True,True
+data/processed/monuments/Hawa mahal/img_1644_images-155.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.8631088733673096,True,True
+data/processed/monuments/Hawa mahal/img_0177_images-124.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.9584318399429321,True,True
+data/processed/monuments/hawa mahal pics/img_2654_hawa-mahal-wind-palace-view-tattoo-cafe-800x1000.jpg.webp,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.95843106508255,True,True
+data/processed/monuments/hawa mahal pics/img_2785_m (27).jpg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.976901650428772,True,True
+data/processed/monuments/hawa mahal pics/img_1041_m (25).jpg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.9686869978904724,True,True
+data/processed/monuments/hawa mahal pics/img_1161_m (37).jpg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.8875226378440857,True,True
+data/processed/monuments/Hawa mahal/img_0540_images-122.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Alai Minar,0.7045300602912903,False,True
+data/processed/monuments/hawa mahal pics/img_1703_m (78).jpg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.9030470848083496,True,True
+data/processed/monuments/hawa mahal pics/img_1145_m (40).jpg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.8848649263381958,True,True
+data/processed/monuments/hawa mahal pics/img_2977_images-90.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Ajanta Caves,0.7007701992988586,False,False
+data/processed/monuments/hawa mahal pics/img_3453_images-49.jpeg,Hawa Mahal,IND_HAWA_MAHAL,Hawa Mahal,0.8869692087173462,True,True
+data/processed/monuments/Humayun_s Tomb/img_2844_4.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.9347508549690247,True,True
+data/processed/monuments/Humayun_s Tomb/img_1445_120.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.8508226275444031,True,True
+data/processed/monuments/Humayun_s Tomb/img_2087_31.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.9316668510437012,True,True
+data/processed/monuments/Humayun_s Tomb/img_3231_6.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.88479083776474,True,True
+data/processed/monuments/Humayun_s Tomb/img_2587_88.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.9121483564376831,True,True
+data/processed/monuments/Humayun_s Tomb/img_1156_8.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.9210805296897888,True,True
+data/processed/monuments/Humayun_s Tomb/img_2637_160.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.9392669796943665,True,True
+data/processed/monuments/Humayun_s Tomb/img_1876_85.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.8371557593345642,True,True
+data/processed/monuments/Humayun_s Tomb/img_0509_164.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.9369202256202698,True,True
+data/processed/monuments/Humayun_s Tomb/img_0673_100.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.9067177772521973,True,True
+data/processed/monuments/Humayun_s Tomb/img_0040_70.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.9437695145606995,True,True
+data/processed/monuments/Humayun_s Tomb/img_1749_65.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.9316668510437012,True,True
+data/processed/monuments/Humayun_s Tomb/img_2530_18.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.9220249652862549,True,True
+data/processed/monuments/Humayun_s Tomb/img_3352_103.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.9324015378952026,True,True
+data/processed/monuments/Humayun_s Tomb/img_1784_37.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.8981483578681946,True,True
+data/processed/monuments/Humayun_s Tomb/img_1577_133.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.9348053932189941,True,True
+data/processed/monuments/Humayun_s Tomb/img_0427_10.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.9155317544937134,True,True
+data/processed/monuments/Humayun_s Tomb/img_2012_149.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.9819291234016418,True,True
+data/processed/monuments/Humayun_s Tomb/img_1303_122.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.9322581887245178,True,True
+data/processed/monuments/Humayun_s Tomb/img_2612_27.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.9141541719436646,True,True
+data/processed/monuments/Humayun_s Tomb/img_2668_142.jpg,Humayun's Tomb,IND_HUMAYUN_S_TOMB,Humayun's Tomb,0.9280644059181213,True,True
+data/processed/monuments/iron_pillar/img_0226_img636.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Alai Darwaza,0.9343355298042297,False,False
+data/processed/monuments/iron_pillar/img_2862_img706.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8427599668502808,True,True
+data/processed/monuments/iron_pillar/img_0515_img72.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8137146830558777,True,True
+data/processed/monuments/iron_pillar/img_1447_img155.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.7935103178024292,True,True
+data/processed/monuments/iron_pillar/img_3402_img683.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8362511992454529,True,True
+data/processed/monuments/iron_pillar/img_2171_img247.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8386361598968506,True,True
+data/processed/monuments/iron_pillar/img_1698_img704.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8166071176528931,True,True
+data/processed/monuments/iron_pillar/img_1630_img65.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8179208040237427,True,True
+data/processed/monuments/iron_pillar/img_2336_img150.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Qutub Minar,0.8107557892799377,False,True
+data/processed/monuments/iron_pillar/img_2109_img102.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8655144572257996,True,True
+data/processed/monuments/iron_pillar/img_0446_img697.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.7900959849357605,True,True
+data/processed/monuments/iron_pillar/img_3399_img61.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Qutub Minar,0.9034938216209412,False,True
+data/processed/monuments/iron_pillar/img_0016_img177.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8333866596221924,True,True
+data/processed/monuments/iron_pillar/img_1537_img608.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8015597462654114,True,True
+data/processed/monuments/iron_pillar/img_1488_img331.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8209218382835388,True,True
+data/processed/monuments/iron_pillar/img_1587_img152.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8643276691436768,True,True
+data/processed/monuments/iron_pillar/img_3180_img158.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8930403590202332,True,True
+data/processed/monuments/iron_pillar/img_2147_img350.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.9100458025932312,True,True
+data/processed/monuments/iron_pillar/img_1201_img624.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8538650274276733,True,True
+data/processed/monuments/iron_pillar/img_1202_img122.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8644569516181946,True,True
+data/processed/monuments/iron_pillar/img_1548_img34.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.933691680431366,True,True
+data/processed/monuments/iron_pillar/img_1849_img342.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.9546000957489014,True,True
+data/processed/monuments/iron_pillar/img_2339_img170.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Jamali Kamali Tomb,0.7283961772918701,False,False
+data/processed/monuments/iron_pillar/img_1441_img668.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8409122824668884,True,True
+data/processed/monuments/iron_pillar/img_3510_img117.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.898518979549408,True,True
+data/processed/monuments/iron_pillar/img_0369_img606.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.9375097155570984,True,True
+data/processed/monuments/iron_pillar/img_2856_img689.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8101019859313965,True,True
+data/processed/monuments/iron_pillar/img_3234_img55.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8364501595497131,True,True
+data/processed/monuments/iron_pillar/img_2350_img188.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.9010554552078247,True,True
+data/processed/monuments/iron_pillar/img_2449_img600.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8418579697608948,True,True
+data/processed/monuments/iron_pillar/img_1075_img113.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.7698802351951599,True,True
+data/processed/monuments/iron_pillar/img_3541_img27.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.9353181719779968,True,True
+data/processed/monuments/iron_pillar/img_1523_img359.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Tanjavur Temple,0.7593727707862854,False,True
+data/processed/monuments/iron_pillar/img_1081_img602.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8597195744514465,True,True
+data/processed/monuments/iron_pillar/img_3526_img39.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8370829820632935,True,True
+data/processed/monuments/iron_pillar/img_2657_img289.jpeg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8736453056335449,True,True
+data/processed/monuments/iron_pillar/img_3292_img658.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8569230437278748,True,True
+data/processed/monuments/iron_pillar/img_1633_img666.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.781868577003479,True,True
+data/processed/monuments/iron_pillar/img_0089_img74.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8567091822624207,True,True
+data/processed/monuments/iron_pillar/img_0410_img290.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8244696855545044,True,True
+data/processed/monuments/iron_pillar/img_2016_img335.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8358349204063416,True,True
+data/processed/monuments/iron_pillar/img_2625_img137.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.8816750645637512,True,True
+data/processed/monuments/iron_pillar/img_0420_img88.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.9099729657173157,True,True
+data/processed/monuments/iron_pillar/img_0114_img218.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.9546001553535461,True,True
+data/processed/monuments/iron_pillar/img_0825_img332.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.7784183025360107,True,True
+data/processed/monuments/iron_pillar/img_0319_img663.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.809607207775116,True,True
+data/processed/monuments/iron_pillar/img_2265_img260.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.9194142818450928,True,True
+data/processed/monuments/iron_pillar/img_0923_img323.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Qutub Minar,0.8876228332519531,False,False
+data/processed/monuments/iron_pillar/img_1744_img40.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.9185118079185486,True,True
+data/processed/monuments/iron_pillar/img_1974_img622.jpg,Iron Pillar,UNMAPPED_IRON_PILLAR,Iron Pillar,0.7961457371711731,True,True
+data/processed/monuments/Chhota_Imambara/img_0330_img18.jpg,Chhota Imambara,IND_CHHOTA_IMAMBARA,Chhota Imambara,0.8364969491958618,True,True
+data/processed/monuments/Chhota_Imambara/img_2057_img30.jpg,Chhota Imambara,IND_CHHOTA_IMAMBARA,Chhota Imambara,0.8513927459716797,True,True
+data/processed/monuments/Chhota_Imambara/img_0791_img20.jpg,Chhota Imambara,IND_CHHOTA_IMAMBARA,Chhota Imambara,0.8807042241096497,True,True
+data/processed/monuments/Chhota_Imambara/img_2893_11.jpg,Chhota Imambara,IND_CHHOTA_IMAMBARA,Chhota Imambara,0.9516611099243164,True,True
+data/processed/monuments/Chhota_Imambara/img_1092_7 - Copy.jpg,Chhota Imambara,IND_CHHOTA_IMAMBARA,Chhota Imambara,0.8436049818992615,True,True
+data/processed/monuments/Chhota_Imambara/img_3367_img16 - Copy.jpg,Chhota Imambara,IND_CHHOTA_IMAMBARA,Chhota Imambara,0.9077170491218567,True,True
+data/processed/monuments/charminar/img_1563_(202).jpg,Charminar,IND_CHARMINAR,Charminar,0.8925226330757141,True,True
+data/processed/monuments/charminar/img_2326_(74).jpg,Charminar,IND_CHARMINAR,Charminar,0.8630051016807556,True,True
+data/processed/monuments/charminar/img_0572_(142).jpg,Charminar,IND_CHARMINAR,Charminar,0.901697039604187,True,True
+data/processed/monuments/charminar/img_1591_(60).jpg,Charminar,IND_CHARMINAR,Charminar,0.943045973777771,True,True
+data/processed/monuments/charminar/img_2716_(118).jpg,Charminar,IND_CHARMINAR,Charminar,0.8359331488609314,True,True
+data/processed/monuments/charminar/img_1769_(119).jpg,Charminar,IND_CHARMINAR,Charminar,0.8396907448768616,True,True
+data/processed/monuments/charminar/img_1564_(115).jpg,Charminar,IND_CHARMINAR,Charminar,0.9243419766426086,True,True
+data/processed/monuments/charminar/img_2666_(183).jpg,Charminar,IND_CHARMINAR,Charminar,0.9328238368034363,True,True
+data/processed/monuments/charminar/img_1086_(61).jpg,Charminar,IND_CHARMINAR,Charminar,0.9097238183021545,True,True
+data/processed/monuments/charminar/img_3049_(35).jpg,Charminar,IND_CHARMINAR,Charminar,0.9433754086494446,True,True
+data/processed/monuments/charminar/img_2983_(25).jpg,Charminar,IND_CHARMINAR,Charminar,0.9172325730323792,True,True
+data/processed/monuments/charminar/img_1012_(87).jpg,Charminar,IND_CHARMINAR,Charminar,0.9277649521827698,True,True
+data/processed/monuments/charminar/img_0742_(165).jpg,Charminar,IND_CHARMINAR,Charminar,0.8966585397720337,True,True
+data/processed/monuments/charminar/img_2602_(16).jpg,Charminar,IND_CHARMINAR,Charminar,0.8804997801780701,True,True
+data/processed/monuments/charminar/img_2365_(170).jpg,Charminar,IND_CHARMINAR,Charminar,0.89766925573349,True,True
+data/processed/monuments/charminar/img_3410_(151).jpg,Charminar,IND_CHARMINAR,Charminar,0.8814554214477539,True,True
+data/processed/monuments/charminar/img_3493_(32).jpg,Charminar,IND_CHARMINAR,Charminar,0.896655797958374,True,True
+data/processed/monuments/charminar/img_0810_(6).jpg,Charminar,IND_CHARMINAR,Charminar,0.8609403967857361,True,True
+data/processed/monuments/charminar/img_1436_(123).jpg,Charminar,IND_CHARMINAR,Charminar,0.8870614171028137,True,True
+data/processed/monuments/charminar/img_3320_(40).jpg,Charminar,IND_CHARMINAR,Charminar,0.903063178062439,True,True
+data/processed/monuments/charminar/img_0149_(110).jpg,Charminar,IND_CHARMINAR,Charminar,0.9966045618057251,True,True
+data/processed/monuments/charminar/img_2307_(147).jpg,Charminar,IND_CHARMINAR,Charminar,0.996604323387146,True,True
+data/processed/monuments/charminar/img_2832_(205).jpg,Charminar,IND_CHARMINAR,Charminar,0.9461861252784729,True,True
+data/processed/monuments/charminar/img_1771_(45).jpg,Charminar,IND_CHARMINAR,Charminar,0.907477080821991,True,True
+data/processed/monuments/charminar/img_0699_(37).jpg,Charminar,IND_CHARMINAR,Charminar,0.9240254759788513,True,True
+data/processed/monuments/charminar/img_3145_(159).jpg,Charminar,IND_CHARMINAR,Charminar,0.9085745811462402,True,True
+data/processed/monuments/charminar/img_3122_(173).jpg,Charminar,IND_CHARMINAR,Charminar,0.9549136757850647,True,True
+data/processed/monuments/charminar/img_2971_(130).jpg,Charminar,IND_CHARMINAR,Charminar,0.892541766166687,True,True
+data/processed/monuments/charminar/img_3413_(86).jpg,Charminar,IND_CHARMINAR,Charminar,0.8809922933578491,True,True
+data/processed/monuments/charminar/img_1854_(120).jpg,Charminar,IND_CHARMINAR,Charminar,0.832789957523346,True,True
+data/processed/monuments/charminar/img_2694_(138).jpg,Charminar,IND_CHARMINAR,Charminar,0.8203073740005493,True,True
+data/processed/monuments/Fatehpur Sikri/img_1231_11.jpg,Fatehpur Sikri,IND_FATEHPUR_SIKRI,Fatehpur Sikri,0.797256350517273,True,True
+data/processed/monuments/Fatehpur Sikri/img_2117_29.jpg,Fatehpur Sikri,IND_FATEHPUR_SIKRI,Fatehpur Sikri,0.938610315322876,True,True
+data/processed/monuments/Fatehpur Sikri/img_2104_15.jpg,Fatehpur Sikri,IND_FATEHPUR_SIKRI,Fatehpur Sikri,0.8637780547142029,True,True
+data/processed/monuments/Fatehpur Sikri/img_1972_2.jpg,Fatehpur Sikri,IND_FATEHPUR_SIKRI,Fatehpur Sikri,0.9282741546630859,True,True
+data/processed/monuments/Fatehpur Sikri/img_1751_16.jpg,Fatehpur Sikri,IND_FATEHPUR_SIKRI,Humayun's Tomb,0.8370795845985413,False,True
+data/processed/monuments/Fatehpur Sikri/img_1924_13.jpg,Fatehpur Sikri,IND_FATEHPUR_SIKRI,Fatehpur Sikri,0.9032159447669983,True,True
+data/processed/monuments/Fatehpur Sikri/img_2723_30.jpg,Fatehpur Sikri,IND_FATEHPUR_SIKRI,Fatehpur Sikri,0.9265555739402771,True,True
+data/processed/monuments/lotus_temple/img_1305_21.jpg,Lotus Temple,IND_LOTUS_TEMPLE,Lotus Temple,0.9195114970207214,True,True
+data/processed/monuments/lotus_temple/img_3030_23.jpg,Lotus Temple,IND_LOTUS_TEMPLE,Lotus Temple,0.9225229024887085,True,True
+data/processed/monuments/lotus_temple/img_3323_17.jpg,Lotus Temple,IND_LOTUS_TEMPLE,Lotus Temple,0.8727167248725891,True,True
+data/processed/monuments/lotus_temple/img_0557_12.jpg,Lotus Temple,IND_LOTUS_TEMPLE,Lotus Temple,0.9350315928459167,True,True
+data/processed/monuments/Khajuraho/img_1425_39.jpg,Khajuraho,IND_KHAJURAHO,Khajuraho,0.9067829847335815,True,True
+data/processed/monuments/Khajuraho/img_1149_12.jpg,Khajuraho,IND_KHAJURAHO,Khajuraho,0.8414962291717529,True,True
+data/processed/monuments/Khajuraho/img_2472_24.jpg,Khajuraho,IND_KHAJURAHO,Sun Temple Konark,0.7703269720077515,False,True
+data/processed/monuments/Khajuraho/img_3159_3.jpg,Khajuraho,IND_KHAJURAHO,Khajuraho,0.91377854347229,True,True
+data/processed/monuments/Khajuraho/img_2946_34.jpg,Khajuraho,IND_KHAJURAHO,Khajuraho,0.888139009475708,True,True
+data/processed/monuments/Khajuraho/img_0282_23.jpg,Khajuraho,IND_KHAJURAHO,Khajuraho,0.916015625,True,True

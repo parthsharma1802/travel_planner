@@ -1,0 +1,66 @@
+{
+  "manifest_version": "1.0",
+  "generated_at": "2026-09-02",
+  "environment": {
+    "platform": "macOS Apple Silicon M4",
+    "python_version": "3.9.6",
+    "pytorch_version": "2.8.0",
+    "mps_available": true
+  },
+  "datasets": {
+    "indian_monuments": {
+      "path": "data/raw/extracted/indian_monuments",
+      "total_images": 4718,
+      "num_classes": 26,
+      "classes": [
+        "jamali_kamali_tomb",
+        "charminar",
+        "Ajanta Caves",
+        "tanjavur temple",
+        "golden temple",
+        "Humayun_s Tomb",
+        "Sun Temple Konark",
+        "India_gate",
+        "alai_darwaza",
+        "tajmahal",
+        "iron_pillar",
+        "qutub_minar",
+        "Hawa mahal",
+        "Ellora Caves",
+        "Gateway of India",
+        "Fatehpur Sikri",
+        "basilica_of_bom_jesus",
+        "mysore_palace",
+        "Charar-E- Sharif",
+        "Chhota_Imambara",
+        "alai_minar",
+        "victoria memorial",
+        "Khajuraho",
+        "hawa mahal pics",
+        "India gate pics",
+        "lotus_temple"
+      ],
+      "status": "Ready for preprocessing"
+    },
+    "india_tourism_json": {
+      "path": "data/raw/extracted/india_tourism_json",
+      "status": "Parsed & Validated"
+    },
+    "state_wise_tourism": {
+      "path": "data/raw/extracted/state_wise_tourism",
+      "status": "Parsed & Summarized"
+    },
+    "image_db": {
+      "path": "image_db.zip",
+      "status": "Corrupt Zip Archive - Skipped"
+    }
+  },
+  "statistics": {
+    "total_images_scanned": 4718,
+    "valid_images": 4718,
+    "corrupt_images": 0,
+    "exact_duplicates": 2047,
+    "near_duplicates": 45,
+    "mapped_destinations_pct": 92.3
+  }
+}
